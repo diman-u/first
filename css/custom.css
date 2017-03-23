@@ -23,12 +23,13 @@ body {
         width: 1210px;
     }
 }
-
-.container:before {
-    content: url(../img/mouse.png);
-    position: absolute;
-    left: 48.7%;
-    top: 75%;
+.cards-holder {
+    position: relative;
+}
+.scroll {
+    width: 23px;
+    align-self: flex-start;
+    margin-top: 500px;
 }
 .cards-holder {
     display: flex;
@@ -167,7 +168,7 @@ body {
     margin-bottom: 20px;
 }
 .recovery .center-but:after {
-    content: url(../img/icure_white.png);
+    content: url(../img/icure_logo_white.svg);
     display: block;
     margin-top: 30px;
 }
@@ -179,9 +180,6 @@ body {
     font-family: 'Circe',sans-serif;
     color: white;
     text-align: center;
-}
-@media only screen and (min-width: 1024px) {
-
 }
 .card p {
 /*    margin-bottom:50px;*/
@@ -371,33 +369,31 @@ header {
     margin: 0 auto;
     position: relative;
 }
-/*.center {
-    position:absolute;
-    left:0;
-    right:0;
-    top:0;
-    bottom:0;
-    margin:auto;
-}*/
-/*@media only screen and (max-width: 1230px) {
-    .header-holder {
-        width:564px;
+.logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 11px auto 0 auto;
+    width: 150px;
+    height: 102px;
+}
+
+@media screen and (max-width: 650px) {
+    .logo img{
+        width: 70%;
     }
-}*/
+    .logo {
+        position: static;
+    }
+}
+
 .header-holder {
     display: inline-flex;
     flex-wrap:wrap;
     justify-content:space-between;
-    /*background: url(../img/logo_main.svg) center bottom no-repeat;*/
 
-    /*height:91px;*/
+}
 
-
-}/*
-.header-holder .center {
-    height:102px;
-    padding-top:11px;
-}*/
 .left {
     padding-top:27px;
     display:inline-flex;
@@ -464,12 +460,18 @@ header {
     background-size:27px;
     margin-right:12px;
 }
+.facebook:hover {
+    background-image: url(../img/icon_fb_hover.svg);
+}
 .instagram {
     width:27px;
     height:27px;
     background: url(../img/icon_insta.svg) left center no-repeat;
     background-size:27px;
     margin-right:12px;
+}
+.instagram:hover {
+    background-image: url(../img/icon_insta_hover.svg);
 }
 @media only screen and (max-width: 1230px) {
     .gift {
@@ -721,11 +723,7 @@ footer .block-1 {
 }
 
 /* Add me */
-@media screen and (max-width: 510px) {
-    .header-holder img {
-        display: none;
-    }
-}
+
 
             /* Menu */
 .menu-items a:link,
