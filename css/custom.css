@@ -473,6 +473,11 @@ header {
 .instagram:hover {
     background-image: url(../img/icon_insta_hover.svg);
 }
+.soc-bottom {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 @media only screen and (max-width: 1230px) {
     .gift {
         width:27px;
@@ -726,12 +731,22 @@ footer .block-1 {
 
 
             /* Menu */
+.menu-items a:link {
+    font-size: 22px;
+    line-height: 30px;    
+}
+.items-lg a:link{
+    font-size: 30px;
+    line-height: 50px;    
+}
+.items-lg ul li a:link {
+    color: 3f3f40;
+}
+
 .menu-items a:link,
 .menu-items a:visited,
 .menu-items a:hover,
 .menu-items a:active {
-    font-size: 22px;
-    line-height: 30px;
     background: none;
     color: #55c2f0;
 }
@@ -753,7 +768,7 @@ footer .block-1 {
     text-decoration: underline;
 }
 .open-menu .mega-menu {
-    margin-top: 50px;
+    margin-top: 115px;
 }
 .mega-menu .first-block {
     margin-bottom: 30px;
