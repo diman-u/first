@@ -42,12 +42,13 @@
         <div class="card mega-menu">
             <div class="row">
                 <div class="col-xs-12 col-md-5 first-block">
-                    <ul class="main-menu-links">
-                        <li class="menu-items items-lg"><a href="#">Wellness</a>
+                    <ul class="main-menu-links items-lg">
+                        <li class="menu-items"><a href="#">Wellness</a>
                             <ul style="display:none;">
                                 <li><a href="#">Релаксация и восстановление</a></li>
                                 <li><a href="#">Здоровая беременность</a></li>
                                 <li><a href="#">Натуральная красота и омоложение</a></li>
+                                <li><a href="#">Восстановление спортсменов</a></li>
                                 <li><a href="#">Здоровое питание</a></li>
                                 <li><a href="#">Лайф- и Wellness-коучинг</a></li>
                                 <div>
@@ -63,7 +64,7 @@
                 
                 <div class="col-xs-12 col-md-7">
                     <div class="row">
-                        <div class="col-xs-6">
+                        <div class="col-xs-6 mega-menu__mid">
                             <ul>
                                 <li class="menu-items"><a href="#">О центре</a>
                                     <ul>
@@ -87,29 +88,35 @@
                         </div>
                         <div class="col-xs-6">
                             <ul class="right-about-menu">
+                                <li class="menu-items-img"> <img src="img/gift_image.png"> <a href="#" class="more">Подробнее</a></li>
                                 <li class="menu-items"><a href="#">Цены</a>
                                 <li class="menu-items"><a href="#">Контакты</a>
                                 <li class="menu-items"><a href="#">Купить on-line</a>
-                                <li class="menu-items-img"> <img src="img/gift_image.png"></li>
-
                             </ul>
-                            <img src="img/bankcards.png" style="width:168px;height:44px;margin-top:10px;"/>
                         </div>
                     </div>
                 </div>
-
+                
             </div>
 
             <div class="row">
-                <div class="col-xs-12 col-md-8">
-                    <div class="disclaimer">
+                <div class="col-xs-12 col-md-8 disclaimer">
+                    <div class="social">
+                        <div></div>
+                        <div class="social-wrap">
+                            <img src="img/logo_visa.svg" alt="">
+                            <img src="img/logo_mastercard.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="disclaimer_text">
                         © 2016 Студия флоатинга и SPA «Флоат Студия». Все права защищены законом об авторском праве. Никакая часть содержимого сайта не может быть использована, репродуцирована, передана любым электронным, копировальным или другим способом без предварительного письменного разрешения владельца авторских прав.
                     </div>
-                    <div class="social">
-                        <a class="facebook" href="#" id="facebook" style="margin-right:0;"></a>
-                        <a class="instagram" href="#" id="instagram"></a>
-                    </div>
                 </div>
+            </div>
+
+            <div class="soc-bottom soc-bottom-left">
+                <a class="facebook" href="#"></a>
+                <a class="instagram" href="#"></a>
             </div>
 
             <div class="about-links">
@@ -119,7 +126,7 @@
     </div>
 </header>
 
-<main>
+<main  id="content">
     <div class="cards-holder">
 
         <div class="cards-holder-one">
@@ -283,11 +290,7 @@
         <div class="col-xs-12 col-md-12 wide-card nobg" >
             <!--img src="img/yandexmap.jpg" style="max-width:100%;" /-->
     			<span id="map"></span>
-
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A88b56f7f3b1172bb5b3da9a4863e42bb2376ccb72427c9cf669937ddb4b7b694&amp;width=100%&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
-        </div>
-
-
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A88b56f7f3b1172bb5b3da9a4863e42bb2376ccb72427c9cf669937ddb4b7b694&amp;width=100%&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>             </div>
          </div>
         <div class="row">
             <div class="col-xs-12 col-md-4 wide-card nobg contacts">
@@ -320,17 +323,17 @@
 
 
     </main>
-    <footer class="flex-container">
+    <footer class="flex-container" id="footer">
         <!--div class="row">
             <div class="col-xs-12 col-md-12 row-container">
 
                 <div class="flex-container">-->
-                    <div class="block-1">
-                        <div class="disclaimer">
+                    <div class="block-1 blocks" >
+                        <div class="disclaimer_text">
                             © 2016 Студия флоатинга и SPA «Флоат Студия».
                         </div>
                     </div>
-                    <div class="block-2">
+                    <div class="block-2 blocks">
                         <h4><a href="#">О центре</a></h4>
                         <a href="#">Галерея</a>
                         <a href="#">Специалисты</a>
@@ -339,14 +342,14 @@
                         <a href="#">Клиенты о нас</a>
                         <a href="#">Блог</a>
                     </div>
-                    <div class="block-3">
+                    <div class="block-3 blocks">
                         <h4><a href="#">Флоатинг</a></h4>
                         <a href="#">Что это?</a>
                         <a href="#">Инструкция</a>
                         <a href="#">Технология и безопасность</a>
                         <a href="#">Эффект</a>
                     </div>
-                    <div class="block-4">
+                    <div class="block-4 blocks">
                         <h4><a href="#">Цены</a></h4>
                         <a href="#">Контакты</a>
                         <a href="#">Купить on-line</a>
@@ -358,7 +361,7 @@
                </div>-->
     </footer>
 
-    <div class="soc-bottom">
+    <div class="soc-bottom" id="sochide">
         <a class="facebook" href="#"></a>
         <a class="instagram" href="#"></a>
     </div>
@@ -367,7 +370,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/custom.js"></script>
-   
+
 
 
 
