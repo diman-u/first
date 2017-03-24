@@ -677,6 +677,9 @@ header {
     color: #919191;
     margin: 0 46px;
 }
+footer .disclaimer_text {
+    margin-left: 0;
+}
 li.menu-items a{
     font-size:22px;
     /*font-family:'Circe',sans-serif;*/
