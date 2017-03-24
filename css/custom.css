@@ -800,12 +800,11 @@ footer .block-1 {
     color:#35bdee;
     background-color:white;
 }
-.callme input::-webkit-input-placeholder {
-    color: #55c2f0;
-}
-.callme input:-moz-placeholder {
-    color: #55c2f0;
-}
+.callme ::-webkit-input-placeholder {color:#55c2f0;}
+.callme ::-moz-placeholder          {color:#55c2f0;}/* Firefox 19+ */
+.callme :-moz-placeholder           {color:#55c2f0;}/* Firefox 18- */
+.callme :-ms-input-placeholder      {color:#55c2f0;}
+
 /*********three-points*******/
 .three-points .wide-card.nobg  h4 {
     font-size:25px;
