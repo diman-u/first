@@ -393,7 +393,9 @@ header {
 }
 @media screen and (max-width: 650px) {
     .logo {
-        left: 33%;
+        position: static;
+        width: 100px;
+        /*left: 33%;*/
     }
 }
 
@@ -545,8 +547,13 @@ header {
 	    margin-top: 60px;
 	    position: relative;
     }
-    .right_mobile{	display: block;	}
-    .right{	display: none;	}    
+    .right_mobile{
+    	display: block;	
+        margin-top: 25px;
+    }
+    .right{	
+        display: none;	
+    }    
 }
 .open-menu.cards-holder {
     display: flex;
@@ -681,6 +688,11 @@ footer .disclaimer_text {
     text-wrap:normal;
     width:100%;
 }
+@media screen and (max-width: 540px) {
+    footer .disclaimer_text {
+        margin-top:85px;
+    }
+}
 footer.flex-container {
     padding:40px;
     display: flex;
@@ -756,8 +768,8 @@ footer .block-1 {
     font-size:40px;
     font-weight:bold;
 }
-@media screen and (max-width: 800px) {
-    .card.bg h4 {	font-size: 102%;	}
+@media screen and (max-width: 992px) {
+    .card.bg h4 {	font-size: 40px;	}
     .left-but .more {		font-size: 62%;		}
     .callme h4 {	font-size: 35px;	}
     #content{	margin-top: 50px;	}
