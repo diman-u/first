@@ -288,6 +288,9 @@ body {
     text-align:center;
     margin: 10px 0 50px;
 }
+.wide-card.wide-card__promo {
+    margin-bottom: 100px;
+}
 .wide-card.nobg h4 {
     font-size: 55px;
     color:#37bdee;
@@ -796,6 +799,12 @@ footer .block-1 {
     border: 2px solid #35bdee;
     color:#35bdee;
     background-color:white;
+}
+.callme input::-webkit-input-placeholder {
+    color: #55c2f0;
+}
+.callme input:-moz-placeholder {
+    color: #55c2f0;
 }
 /*********three-points*******/
 .three-points .wide-card.nobg  h4 {
