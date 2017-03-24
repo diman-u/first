@@ -538,11 +538,7 @@ header {
     text-align:right;
     margin: 25px 8px 0 0;
 }
-@media screen and (max-width: 650px) {
-    .right {
-        1margin-top: 0;
-    }
-}
+
 @media screen and (max-width: 450px) {
     .mobile{
     	margin: 0px 10%;
@@ -550,7 +546,7 @@ header {
 	    position: relative;
     }
     .right_mobile{	display: block;	}
-    .right{	display: none;	}
+    .right{	display: none;	}    
 }
 .open-menu.cards-holder {
     display: flex;
@@ -758,21 +754,22 @@ footer .block-1 {
 .callme h4 {
     color: #adaeae;
     font-size:40px;
-    /*font-family: 'Circe Bold',sans-serif;*/
-
     font-weight:bold;
-
+}
+@media screen and (max-width: 800px) {
+    .card.bg h4 {	font-size: 102%;	}
+    .left-but .more {		font-size: 62%;		}
+    .callme h4 {	font-size: 35px;	}
+    #content{	margin-top: 50px;	}
 }
 .callme input[type="text"] {
     width:100%;
     line-height:70px;
     height:70px;
-    margin-bottom:24px;
-    /*border:2px solid; */
+    margin-bottom:24px;    
     border-radius: 15px;
     color:#adaeae;
-    font-size:25px;
-    /*font-family:'Circe',sans-serif;*/
+    font-size:25px;    
     font-family: 'rawline',sans-serif;
     padding-left:20px;
 }
@@ -955,7 +952,12 @@ footer .block-1 {
     line-height: 40px;
 }
 
-
+@media screen and (max-width: 450px) {
+	.menu-items a:link {
+    	font-size: 17px;
+    	line-height: 30px;    
+	}
+}
 
                 /* Floating page */
 .imgheader-wide {
