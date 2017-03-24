@@ -12,11 +12,13 @@ body {
 .card,
 .wide-card.nobg h4,
 .right a,
-.disclaimer_text {
+.disclaimer_text,
+.card.bg p, .card.bg a {
     font-family: 'Circe Light',sans-serif;
 }
 .card.bg h4,
-.wide-card.nobg.phones h4 {
+.wide-card.nobg.phones h4,
+.wide-card.nobg .strong-bold {
     font-family: 'Circe Bold',sans-serif;
 }
 .wide-card.nobg p {
@@ -106,6 +108,11 @@ body {
     color: #00C0F3;
     margin-bottom: 0;
 }
+.card .title-nobg a:hover {
+    background: none;
+    text-decoration: underline;
+    color:  #00C0F3;
+}
 .card .title-nobg:before {
     content: "";
     display: block;
@@ -145,7 +152,7 @@ body {
     color: #55c2f0;
 }
 .under-text {
-    background: #36BCEE;
+    background: #00C0F3;
     text-align:center;
     width:100%;
     padding: 75px 45px 45px 45px;
@@ -181,29 +188,69 @@ body {
 .card.bg p, .card.bg a {
     font-size:25px;
     line-height:32px;
-    font-weight: normal;
-    font-family: 'Circe',sans-serif;
     color: white;
     text-align: center;
 }
+.card.bg a:hover {
+    text-decoration: underline;
+}
+
+
 .card p {
 /*    margin-bottom:50px;*/
     word-wrap:break-word;
 }
 
-.card a:active, a.more:active,.callme input[type="submit"]:active {
-    background-color:#1B75BB;
-    color:white;
+.card a:focus,
+.card a:hover, 
+.card a:active {
     text-decoration:none;
 }
-.card a:hover,.card a:focus, .more:hover, .more:focus,.callme input[type="submit"]:hover,.callme input[type="submit"]:focus {
+.card .title-nobg a:active {
+    color:#1B75BB;
+}
+
+ .more:hover, .more:focus,.callme input[type="submit"]:hover,.callme input[type="submit"]:focus {
      background-color:#00C0F3;
      color:white;
      text-decoration:none;
 }
-.card.bg a {
-    border: 2px solid white;
+ a.more:active,.callme input[type="submit"]:active {
+    background-color:#1B75BB;
+    border-color:#1B75BB;
+    color:white;
+    text-decoration:none;
 }
+
+.card.bg .more {
+    border: 2px solid white;
+    text-decoration: none;
+}
+.card.bg .more:hover {
+    text-decoration: none;
+    border-color: #1b75bb;
+    color: #1b75bb;
+}
+.card.bg .more:active {
+    text-decoration: none;
+    border-color: #424242;
+    color: #424242;
+    background:none;
+}
+
+.card.recovery .more:hover {
+    text-decoration: none;
+    border-color: #5c5c5c;
+    background-color: #5c5c5c;
+    color: #fff;
+}
+.card.recovery .more:active {
+    text-decoration: none;
+    border-color: #424242;
+    background-color: #424242;
+    color: #fff;
+}
+
 .card i {
     text-decoration: underline;
     font-style: normal;
@@ -433,7 +480,7 @@ header {
 
     font-size:16px;
 
-    background: url(../img/icon_header_gift.svg) left center no-repeat;
+    background: url(../img/icon_header_gift_1.svg) left center no-repeat;
     overflow: hidden;
 }
 .gift:hover {
