@@ -7,20 +7,22 @@ html {
 }
 
 .photobox__content,
-.person {
+.person,
+.contentbox-doctors__head {
   font-family: 'Circe Light', sans-serif;
 }
 
 .photobox__head,
 .contentbox__head,
 .promo-grid-square__price,
-.contentbox__phones {
+.contentbox__phones,
+.contentbox-doctors__main-head {
   font-family: 'Circe Bold', sans-serif;
 }
 
-/*{
-    font-family: 'Circe Extra Light',sans-serif;
-}*/
+.doctors-grid__status {
+  font-family: 'Circe Extra Light', sans-serif;
+}
 
 a {
   text-decoration: none;
@@ -471,6 +473,114 @@ footer h4 {
   line-height: 26px;
 }
 
+.contentbox-doctors {
+  margin-bottom: 2.5rem;
+}
+
+.contentbox-doctors .contentbox-doctors__main-head {
+  margin-bottom: 2.5rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.contentbox-doctors .contentbox-doctors__head {
+  margin-bottom: 3.75rem;
+  font-size: 3.4375rem;
+  line-height: 3.25rem;
+  text-align: center;
+  color: #0dbeec;
+}
+
+.contentbox-doctors .contentbox-doctors__buttons {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.contentbox-doctors .contentbox-doctors__buttons .contentbox-doctors__buttons-label {
+  display: inline-block;
+  margin-right: 1.875rem;
+  font-size: 1.5625rem;
+  line-height: 1.875rem;
+  color: #0dbeec;
+}
+
+.contentbox-doctors .contentbox-doctors__buttons a {
+  display: inline-block;
+  margin: 0 10px 1.25rem;
+}
+
+.doctors-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  justify-content: center;
+}
+
+.doctors-grid .doctors-grid__item {
+  margin-bottom: 3.75rem;
+  margin-right: 15px;
+  margin-left: 15px;
+  width: calc(25% - 30px);
+  text-align: center;
+}
+
+.doctors-grid .doctors-grid__photo {
+  max-height: 350px;
+  max-width: 230px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #333;
+}
+
+.doctors-grid .doctors-grid__buttons {
+  margin-top: -1.25rem;
+  margin-bottom: 1.875rem;
+  font-size: 1.5625rem;
+  line-height: 2.5rem;
+}
+
+.doctors-grid .doctors-grid__head {
+  font-size: 1.25rem;
+  line-height: 2.1875rem;
+  color: #0dbeec;
+  text-transform: uppercase;
+}
+
+.doctors-grid .doctors-grid__status {
+  color: #535353;
+}
+
+.breadcrumbs {
+  margin-top: -1.25rem;
+  margin-bottom: 3.4375rem;
+}
+
+.breadcrumbs .breadcrumbs__list {
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumbs .breadcrumbs_item {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.breadcrumbs .breadcrumbs_item:after {
+  content: '/';
+  margin: 0 3px;
+}
+
+.breadcrumbs .breadcrumbs_item a {
+  color: #4c4c4c;
+}
+
+.breadcrumbs .breadcrumbs_item:last-child:after {
+  content: '';
+}
+
 .banner {
   margin-top: 1.25rem;
   margin-bottom: 6.25rem;
@@ -482,7 +592,7 @@ footer h4 {
 
 .more {
   font-size: 1.5625rem;
-  line-height: 1.875rem;
+  line-height: 2.5rem;
   text-decoration: none;
 }
 
@@ -499,6 +609,13 @@ footer h4 {
   background: #1b75bb;
   border-color: #1b75bb;
   color: #fff;
+}
+
+.more.more-active,
+.more.more-active:hover {
+  background: #0dbeec;
+  color: #fff;
+  cursor: default;
 }
 
 @media screen and (max-width: 1200px) {
@@ -570,6 +687,26 @@ footer h4 {
 
   .promo-grid-square .promo-grid-square__item:nth-child(2) {
     margin-left: 0;
+  }
+
+  .doctors-grid .doctors-grid__item {
+    width: calc(33.333333333333336% - 30px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .timeline {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .contentbox__main-doctor {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .doctors-grid .doctors-grid__buttons a {
+    font-size: 1.4375rem;
   }
 }
 
@@ -659,6 +796,14 @@ footer h4 {
   .promo-grid-square .promo-grid-square__item {
     width: calc(100% - 10px);
   }
+
+  .doctors-grid .doctors-grid__item {
+    width: calc(50% - 30px);
+  }
+
+  .doctors-grid .doctors-grid__buttons a {
+    font-size: 1.6875rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -742,5 +887,17 @@ footer h4 {
   .contentbox__main-doctor {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .doctors-grid .doctors-grid__item {
+    width: calc(100% - 30px);
+  }
+
+  .doctors-grid .doctors-grid__buttons a {
+    font-size: 2.1875rem;
+  }
+
+  .doctors-grid .doctors-grid__head {
+    font-size: 20px;
   }
 }
