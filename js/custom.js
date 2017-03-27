@@ -1,30 +1,57 @@
 $(document).ready(function() {
-    $("a.menu").on('click', function () {
-        
-                    $(this).toggleClass('active');
-           
-            if ( $('#content').css('display')=='none') {
-                $('#content').css('display', 'block');
-                $('#footer').css('display', 'flex');
-                $('#sochide').css('display', 'flex');
-                setTimeout(function(){
-                    $('.open-menu').slideToggle('300');
-                }, 0);
-            } else{
-                $('.open-menu').slideToggle('300');
-                setTimeout(function(){
-                        $('#content').css('display', 'none');
-                        $('#footer').css('display', 'none');
-                        $('#sochide').css('display', 'none');
-                }, 500);
-            }
 
+    var flagAction;
+    var shaverma = $("a.menu");
+    shaverma.bind('click', slideMenu);  
+
+    function slideMenu() {
+        var _that = $(this);
+        var menu = $('.open-menu');
+        var content = $('#content');
+        var footer = $('#footer');
+        var sochide = $('#sochide');
+
+        if( !_that.hasClass('active') ) {
+
+            shaverma.unbind('click', slideMenu);
+
+            menu.slideToggle('300', setClass());
+            
+        } else {
+            
+            shaverma.unbind('click', slideMenu);
+
+            content.css('display', 'block');
+            footer.css('display', 'flex');
+            sochide.css('display', 'flex');
+
+            menu.slideToggle('300', delClass());
+        }
+
+        function setClass() {
+            setTimeout(function(){
+
+                content.css('display', 'none');
+                footer.css('display', 'none');
+                sochide.css('display', 'none');
+
+                _that.addClass('active');
+
+                shaverma.bind('click', slideMenu); 
+
+            }, 500);
+        }
+
+        function delClass() {
+            _that.removeClass('active');
+            shaverma.bind('click', slideMenu);  
+        }
         
-    });
+    } 
+
     $(".menu-items.wells>a").on("click", function () {
         $(this).toggleClass('active');
         $(this).next('ul').slideToggle('300');
-        console.log('y');
     });
 
 /*    
