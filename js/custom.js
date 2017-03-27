@@ -20,10 +20,11 @@ $(document).ready(function() {
             }
 
         
-    });   
+    });
     $(".menu-items.wells>a").on("click", function () {
         $(this).toggleClass('active');
         $(this).next('ul').slideToggle('300');
+        console.log('y');
     });
 
 /*    

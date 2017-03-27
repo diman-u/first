@@ -529,17 +529,11 @@ header {
 }
 .right .check {
     background: url(../img/icon_header_check.svg) left center no-repeat;
-    border: 2px solid #35bdee;
-    border-radius: 10px;
-    padding: 0px 38px;
-    height: 33px;
+    
 }
 .check:hover{
     background-image: url(../img/icon_check_hover.svg);
-    border-radius: 10px;
-    padding: 0px 38px;
-    height: 33px;
-    border: 2px solid #1B75BB;
+    
 }
 .buy {
     background: url(../img/icon_header_card.svg) left center no-repeat;
@@ -600,13 +594,23 @@ header {
     }
     .right a.check {
 
-        border:1px solid #22bfed;
+        border:2px solid #22bfed;
         border-radius:15px;
         background-position-x: 11px;
         padding:10px 30px 10px 60px;
         line-height:20px;
         height:40px;
+        margin-top:17px;        
+    }
+    .right a.check:hover {
         margin-top:17px;
+        border-radius: 15px;
+        border: 2px solid #1B75BB;
+        background-position-x: 11px;
+        padding:10px 30px 10px 60px;
+        line-height:20px;
+        height:40px;
+        border: 2px solid #1B75BB;
     }
 
 }
@@ -760,6 +764,12 @@ li.menu-items li:last-child {
 
     #header-left{   width: 220px;   }
     #well_list { display: none; }
+    .right .check{
+        border-radius: 10px;
+        padding: 0px 38px;
+        height: 33px;
+        border: 2px solid #1B75BB;
+    }
 }
 
 /* Для десктопов*/
