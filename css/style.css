@@ -33,10 +33,6 @@ a:focus {
   text-decoration: none;
 }
 
-a:visited {
-  color: #0dbeec;
-}
-
 a:hover {
   text-decoration: underline;
   color: #0dbeec;
