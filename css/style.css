@@ -77,7 +77,7 @@ footer h4 {
 }
 
 .photobox.photobox-not-margin {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .photobox:before {
@@ -318,8 +318,8 @@ footer h4 {
 .timeline .timeline__item:after {
   content: "";
   display: block;
-  width: 0.0625rem;
-  height: 90%;
+  width: 1px;
+  height: 100%;
   position: absolute;
   top: 0.9375rem;
   left: -2.0625rem;
