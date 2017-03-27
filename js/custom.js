@@ -1,18 +1,24 @@
 $(document).ready(function() {
     $("a.menu").on('click', function () {
+
         $(this).toggleClass('active');
         $('.open-menu').slideToggle('300');
         
-        if ( $('#content').css('display')=='none') {
-        		$('#content').css('display', 'block');
-                $('#footer').css('display', 'flex');
-        		$('#sochide').css('display', 'flex');
-                
-        } else{
-        	$('#content').css('display', 'none');
-            $('#footer').css('display', 'none');
-        	$('#sochide').css('display', 'none');
-        }
+        setTimeout(function(){
+
+            
+            if ( $('#content').css('display')=='none') {
+            		$('#content').css('display', 'block');
+                    $('#footer').css('display', 'flex');
+            		$('#sochide').css('display', 'flex');
+                    
+            } else{
+            	$('#content').css('display', 'none');
+                $('#footer').css('display', 'none');
+            	$('#sochide').css('display', 'none');
+            }
+
+        }, 500);
         
     });   
     $(".menu-items.wells>a").on("click", function () {
