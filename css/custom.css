@@ -94,6 +94,9 @@ body {
         order: 8;
     }
 }
+.wells {
+    cursor: pointer;
+}
 .card {
     font-size: 35px;
     line-height: 40px;
@@ -489,6 +492,9 @@ header {
 
     background: url(../img/icon_header_gift_1.svg) left center no-repeat;
     overflow: hidden;
+}
+.gift:visited {
+    color:#FF6666;
 }
 .gift:hover {
     color:#BF4C4C;
