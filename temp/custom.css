@@ -171,7 +171,7 @@ body {
     width: 100%;
     height: 100%;
     display: block;
-    background: rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.3);
 }
 .recovery .more:hover {
     background: none;
@@ -201,10 +201,9 @@ body {
     word-wrap:break-word;
 }
 
-.card.bg a {
-    text-decoration:underline;
-}
-.card.bg a:hover {
+.card a:focus,
+.card a:hover, 
+.card a:active {
     text-decoration:none;
 }
 .card .title-nobg a:active {
@@ -268,11 +267,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
-}
-@media screen and (max-width: 768px) {
-    .card {
-        text-align: center;
-    }
 }
 
 .column-break {
@@ -387,7 +381,7 @@ body {
     font-size:25px;
     font-family:'Circe', sans-serif;
     padding: 0px 23px;
-    border-radius: 10px;
+    border-radius: 7px;
     border: 2px solid #35bdee;
     color:#35bdee;
     margin:50px 0;
@@ -442,7 +436,7 @@ header {
 }
 .logo {
     1position: absolute;
-    1left: 43%;
+    1left: 42.2%;
     1margin: 11px auto 0 auto;
     margin-top: 11px;
     width: 150px;
@@ -471,7 +465,7 @@ header {
 }
 .menu {
     width:35px;
-    height:27px;
+    height:26px;
     background: url(../img/menu_hamburger.svg) center center no-repeat;
     margin-right:17px;
 }
@@ -599,27 +593,49 @@ header {
     margin: 25px 8px 0 0;
 }
 
+/* Для мобилок*/
+@media screen and (max-width: 767px) {
+    .mobile{
+    	margin: 0px 10%;
+	    margin-top: 60px;
+	    position: relative;
+    }
+    .right_mobile{
+    	display: block;	
+        margin-top: 25px;
+        width: 82px;
+    }
+    .right{	
+        display: none;	
+    }    
+    .left{
+        flex-grow: 0;
+    }
+    .logo{  width: 110px;   }
+}
 
-.open-menu.cards-holder {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.open-menu .card {
-    margin:0 auto;
-    text-align:left;
-}
-.open-menu .card ul,li {
-    margin:0;
-    padding:0;
-    list-style-type:none;
-    cursor: pointer;
-}
-.contacts-open-menu {
-    display:flex;
-    flex-direction:column;
+/* Для планшетов*/
+@media (min-width: 768px) and (max-width: 992px) {
 
+    #header-left{   width: 220px;   }
 }
+
+/* Для десктопов*/
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    #header-left{
+        width: 220px;
+    }
+}
+
+/* >1200px */
+@media (min-width: 1200px) {
+
+    #header-left{
+        width: 482px;
+    }
+}
+
 @media screen and (min-width: 1230px) {
     .contacts-open-menu {
         display: none;
@@ -667,7 +683,7 @@ header {
     font-size:12px;
     line-height: 15px;
     color: #919191;
-    margin: 0 46px;
+    1margin: 0 46px;
 }
 footer .disclaimer_text {
     margin-left: 0;
@@ -709,64 +725,6 @@ li.menu-items li:last-child {
 .left-about-menu li.menu-items {
     line-height:30px;
 }
-
-/* Для мобилок*/
-@media screen and (max-width: 767px) {
-    .mobile{
-        margin: 0px 10%;
-        margin-top: 60px;
-        position: relative;
-    }
-    .right_mobile{
-        display: block; 
-        margin-top: 25px;
-        width: 82px;
-    }
-    .right{ 
-        display: none;  
-    }    
-    .left{
-        flex-grow: 0;
-    }
-    .logo{  width: 110px;   }
-    
-    #well_list { display: none; }
-    
-    .contacts-open-menu a {
-            padding-left: 32px;
-            font-size: 14px;
-    }
-}
-
-/* Для планшетов*/
-@media (min-width: 768px) and (max-width: 992px) {
-
-    #header-left{   width: 220px;   }
-    #well_list { display: none; }
-}
-
-/* Для десктопов*/
-@media (min-width: 992px) and (max-width: 1200px) {
-
-    #header-left{
-        width: 220px;
-    }    
-}
-
-/* >1200px */
-@media (min-width: 1200px) {
-
-    #header-left{
-        width: 482px;
-    }
-}
-
-@media screen and (min-width: 1230px) {
-    .contacts-open-menu {
-        display: none;
-    }
-}
-
 /********footer styles*******/
 footer {
     width:100%;
@@ -1036,10 +994,6 @@ footer .block-1 {
 .mega-menu .first-block {
     margin-bottom: 30px;
 }
-.img-bank{
-    width:168px;
-    margin-top:10px;
-}
 .right-about-menu {
     margin-top: 50px;
 }
@@ -1070,7 +1024,6 @@ footer .block-1 {
     position: absolute;
     left: 55%;
     top: 10px;
-    width: 44%;
 }
 .main-menu-links .menu-items li{
     margin-left: 15px;
@@ -1092,10 +1045,13 @@ footer .block-1 {
 }
 
 @media screen and (max-width: 450px) {
-	.menu-items a:link, .wells {
+	.menu-items a:link {
     	font-size: 17px;
-    	line-height: 30px;
+    	line-height: 30px;    
 	}
+}
+.img-bank{
+    width:168px;margin-top:10px;
 }
 
                 /* Floating page */
