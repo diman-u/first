@@ -445,16 +445,16 @@ header {
     position: relative;
 }
 .logo {
-    1position: absolute;
-    1left: 43%;
-    1margin: 11px auto 0 auto;
+    /*1position: absolute;*/
+    /*1left: 43%;*/
+    /*1margin: 11px auto 0 auto;*/
     margin-top: 11px;
     width: 150px;
-    1height: 102px;
+    /*1height: 102px;*/
 }
 @media screen and (max-width: 650px) {
     .logo {
-        1position: static;
+        /*1position: static;*/
     }
     .left {
         flex-grow: 1;
@@ -478,6 +478,7 @@ header {
     height:27px;
     background: url(../img/menu_hamburger.svg) center center no-repeat;
     margin-right:17px;
+    cursor: pointer;
 }
 .menu.active {
     background: url(../img/menu_cross.svg) center center no-repeat;
@@ -915,7 +916,7 @@ footer .block-1 {
     height:70px;
     margin-bottom:24px;    
     border-radius: 15px;
-    1color:#adaeae;
+    /*1color:#adaeae;*/
     color:#35bdee;
     font-size:25px;    
     font-family: 'rawline',sans-serif;
