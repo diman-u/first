@@ -7,20 +7,31 @@ html {
 }
 
 .photobox__content,
-.person {
+.person,
+.contentbox-doctors__head,
+.promo-grid__item-background {
   font-family: 'Circe Light', sans-serif;
 }
 
 .photobox__head,
 .contentbox__head,
 .promo-grid-square__price,
-.contentbox__phones {
+.contentbox__phones,
+.contentbox-doctors__main-head,
+.contentbox-doctors__head-row {
   font-family: 'Circe Bold', sans-serif;
 }
 
-/*{
-    font-family: 'Circe Extra Light',sans-serif;
-}*/
+.doctors-grid__status,
+.doctors-grid__skills,
+.photobox__content {
+  font-family: 'Circe Extra Light', sans-serif;
+}
+
+.photobox__long .photobox__head,
+.photobox__videohead {
+  font-family: 'Circe', sans-serif;
+}
 
 a {
   text-decoration: none;
@@ -29,10 +40,6 @@ a {
 
 a:focus {
   text-decoration: none;
-}
-
-a:visited {
-  color: #0dbeec;
 }
 
 a:hover {
@@ -113,6 +120,11 @@ footer h4 {
   line-height: 2.5rem;
 }
 
+.photobox .photobox__videohead {
+  font-size: 2.1875rem;
+  line-height: 2.3125rem;
+}
+
 .photobox .photobox__content {
   width: 80%;
   margin: 0 auto;
@@ -147,6 +159,9 @@ footer h4 {
 
 .photobox .photobox__content-crop-with {
   width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
 
 .photobox .photobox__button a {
@@ -172,12 +187,41 @@ footer h4 {
   z-index: 200;
 }
 
+.contentbox-bg {
+  background: url(../img/bulbul-floating.jpg) center top no-repeat;
+}
+
+.contentbox-bg .contentbox-bg__head {
+  width: 50%;
+  margin: 0 auto 3.75rem auto;
+  font-size: 2.1875rem;
+  line-height: 2.3125rem;
+  color: #fff;
+}
+
+.contentbox-bg .contentbox-bg__promo {
+  width: 80%;
+  margin: 0 auto 8.125rem auto;
+  font-size: 1.375rem;
+  line-height: 1.9375rem;
+  color: #fff;
+}
+
 .waves {
   margin-bottom: 4.5625rem;
 }
 
 .waves .photobox__wrap {
   background: url(../img/white-wave.png) no-repeat 50% top, url(../img/white-wave_rotate.png) no-repeat 50% bottom;
+  background-size: contain;
+}
+
+.waves-top:before {
+  content: '';
+  display: block;
+  height: 2.625rem;
+  margin-bottom: 4.5625rem;
+  background: url(../img/white-wave.png) repeat-x 50% top;
   background-size: contain;
 }
 
@@ -207,6 +251,10 @@ footer h4 {
   font-size: 2.1875rem;
   line-height: 2.3125rem;
   color: #c3c2c2;
+}
+
+.contentbox .contentbox__promo-double-mb {
+  margin-bottom: 5rem;
 }
 
 .contentbox .contentbox__promo-blue {
@@ -247,6 +295,44 @@ footer h4 {
   color: #000;
 }
 
+.contentbox.contentbox-bg {
+  margin-bottom: 0;
+  padding-bottom: 100px;
+}
+
+.contentbox.contentbox__bluewaves {
+  margin-top: -50px;
+  margin-bottom: 5.625rem;
+  position: relative;
+  background: #0dbeec;
+}
+
+.contentbox.contentbox__bluewaves:before {
+  position: absolute;
+  top: -2.5rem;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  background: url(../img/waves.svg) 50% top repeat-x;
+}
+
+.contentbox.contentbox__bluewaves .contentbox__promo {
+  width: 80%;
+  margin-bottom: 3.125rem;
+  padding-top: 5.3125rem;
+  color: #fff;
+}
+
+.contentbox.contentbox__bluewaves .contentbox__buttons {
+  padding-bottom: 3.125rem;
+}
+
+.contentbox.contentbox__bluewaves .contentbox__buttons a {
+  color: #fff;
+  border-color: #fff;
+}
+
 .promo-grid {
   display: flex;
   flex-wrap: wrap;
@@ -260,9 +346,22 @@ footer h4 {
   width: calc(33.333333333333336% - 30px);
   padding: 0 1.875rem;
   margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.promo-grid .promo-grid__item-background {
+  font-size: 16px;
+  line-height: 23px;
+  color: #fff;
+}
+
+.promo-grid .promo-grid__item-background .promo-grid__head {
+  color: #fff;
 }
 
 .promo-grid .promo-grid__item img {
+  width: 80px;
+  height: 80px;
   margin-bottom: 2.5rem;
 }
 
@@ -273,8 +372,20 @@ footer h4 {
   color: #0dbeec;
 }
 
+.promo-grid .promo-grid__title {
+  margin-bottom: 0;
+  font-size: 2.1875rem;
+  line-height: 2.3125rem;
+  color: #000;
+}
+
 .promo-grid .promo-grid__text-before-button {
   margin-bottom: 2.5rem;
+}
+
+.promo-grid.promo-grid__compact .promo-grid__item img,
+.promo-grid.promo-grid__compact .promo-grid__head {
+  margin-bottom: 1.25rem;
 }
 
 .timeline {
@@ -471,6 +582,197 @@ footer h4 {
   line-height: 26px;
 }
 
+.contentbox-doctors {
+  margin-bottom: 2.5rem;
+}
+
+.contentbox-doctors .contentbox-doctors__main-head {
+  margin-bottom: 2.5rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.contentbox-doctors .contentbox-doctors__head {
+  margin-bottom: 3.75rem;
+  font-size: 3.4375rem;
+  line-height: 3.25rem;
+  text-align: center;
+  color: #0dbeec;
+}
+
+.contentbox-doctors .contentbox-doctors__head-row {
+  margin-bottom: 2.5rem;
+  font-size: 1.875rem;
+  line-height: 2.125rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0dbeec;
+}
+
+.contentbox-doctors .contentbox-doctors__head-row-upjump {
+  margin-top: -1.25rem;
+}
+
+.contentbox-doctors .contentbox-doctors__buttons {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.contentbox-doctors .contentbox-doctors__buttons .contentbox-doctors__buttons-label {
+  display: inline-block;
+  margin-right: 1.875rem;
+  font-size: 1.5625rem;
+  line-height: 1.875rem;
+  color: #0dbeec;
+}
+
+.contentbox-doctors .contentbox-doctors__buttons a {
+  display: inline-block;
+  margin: 0 10px 1.25rem;
+}
+
+.doctors-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  justify-content: center;
+}
+
+.doctors-grid .doctors-grid__item {
+  margin-bottom: 3.75rem;
+  margin-right: 15px;
+  margin-left: 15px;
+  width: calc(25% - 30px);
+  text-align: center;
+}
+
+.doctors-grid .doctors-grid__photo {
+  max-height: 350px;
+  max-width: 230px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #333;
+}
+
+.doctors-grid .doctors-grid__buttons {
+  margin-top: -1.25rem;
+  margin-bottom: 1.875rem;
+  font-size: 1.5625rem;
+  line-height: 2.5rem;
+}
+
+.doctors-grid .doctors-grid__head {
+  font-size: 1.25rem;
+  line-height: 2.1875rem;
+  color: #0dbeec;
+  text-transform: uppercase;
+}
+
+.doctors-grid .doctors-grid__status {
+  color: #535353;
+}
+
+.doctors-grid .doctors-grid__skills {
+  text-align: left;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.doctors-grid .doctors-grid__skills li:before {
+  content: " ";
+  display: block;
+  float: left;
+  width: 1px;
+  height: 3px;
+  background: #333;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.sort-doctors {
+  max-width: 1230px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 0 auto;
+  margin-top: -10px;
+  margin-bottom: 2.5rem;
+  width: 80%;
+}
+
+.sort-doctors .sort-doctors__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  counter-reset: list 0;
+  justify-content: center;
+}
+
+.sort-doctors .sort-doctors__item {
+  display: inline-block;
+  padding-right: 40px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.sort-doctors .sort-doctors__item:before {
+  counter-increment: list;
+  content: counter(list) ". ";
+  color: #5f5f5f;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.sort-doctors .sort-doctors__item a {
+  color: #5f5f5f;
+}
+
+.sort-doctors .sort-doctors__item-active {
+  color: #0dbeec;
+}
+
+.sort-doctors .sort-doctors__item-active:before {
+  color: #0dbeec;
+}
+
+.sort-doctors .sort-doctors__item-active a {
+  color: #0dbeec;
+  text-decoration: underline;
+  cursor: default;
+}
+
+.breadcrumbs {
+  margin-top: -1.25rem;
+  margin-bottom: 3.4375rem;
+}
+
+.breadcrumbs .breadcrumbs__list {
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumbs .breadcrumbs_item {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.breadcrumbs .breadcrumbs_item:after {
+  content: '/';
+  margin: 0 3px;
+}
+
+.breadcrumbs .breadcrumbs_item a {
+  color: #4c4c4c;
+}
+
+.breadcrumbs .breadcrumbs_item:last-child:after {
+  content: '';
+}
+
 .banner {
   margin-top: 1.25rem;
   margin-bottom: 6.25rem;
@@ -481,8 +783,8 @@ footer h4 {
 }
 
 .more {
-  /*1font-size: 1.5625rem;*/
-  line-height: 1.875rem;
+  font-size: 1.5625rem;
+  line-height: 2.5rem;
   text-decoration: none;
 }
 
@@ -501,6 +803,17 @@ footer h4 {
   color: #fff;
 }
 
+.more.more-active,
+.more.more-active:hover {
+  background: #0dbeec;
+  color: #fff;
+  cursor: default;
+}
+
+.mb {
+  margin-bottom: 2.5rem;
+}
+
 @media screen and (max-width: 1200px) {
   .timeline {
     padding-left: 50px;
@@ -510,6 +823,15 @@ footer h4 {
   .contentbox__main-doctor {
     padding-left: 50px;
     padding-right: 50px;
+  }
+
+  .sort-doctors {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .sort-doctors {
+    width: 100%;
   }
 }
 
@@ -570,6 +892,40 @@ footer h4 {
 
   .promo-grid-square .promo-grid-square__item:nth-child(2) {
     margin-left: 0;
+  }
+
+  .doctors-grid .doctors-grid__item {
+    width: calc(33.333333333333336% - 30px);
+  }
+
+  .doctors-grid .doctors-grid__skills ul {
+    padding-left: 1.875rem;
+  }
+
+  .sort-doctors {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .timeline {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .contentbox__main-doctor {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .doctors-grid .doctors-grid__buttons a {
+    font-size: 1.4375rem;
+  }
+
+  .sort-doctors {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -659,6 +1015,19 @@ footer h4 {
   .promo-grid-square .promo-grid-square__item {
     width: calc(100% - 10px);
   }
+
+  .doctors-grid .doctors-grid__item {
+    width: calc(50% - 30px);
+  }
+
+  .doctors-grid .doctors-grid__buttons a {
+    font-size: 1.6875rem;
+  }
+
+  .sort-doctors {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -707,6 +1076,11 @@ footer h4 {
   .promo-grid-square .promo-grid-square__description {
     padding-right: 0;
   }
+
+  .sort-doctors {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -727,6 +1101,11 @@ footer h4 {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .sort-doctors {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -740,6 +1119,27 @@ footer h4 {
   }
 
   .contentbox__main-doctor {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .doctors-grid .doctors-grid__item {
+    width: calc(100% - 30px);
+  }
+
+  .doctors-grid .doctors-grid__buttons a {
+    font-size: 2.1875rem;
+  }
+
+  .doctors-grid .doctors-grid__head {
+    font-size: 20px;
+  }
+
+  .doctors-grid .doctors-grid__skills ul {
+    padding-left: 40px;
+  }
+
+  .sort-doctors {
     padding-left: 20px;
     padding-right: 20px;
   }
