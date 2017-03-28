@@ -189,6 +189,7 @@ footer h4 {
 
 .contentbox-bg {
   background: url(../img/bulbul-floating.jpg) center top no-repeat;
+  background-size: cover;
 }
 
 .contentbox-bg .contentbox-bg__head {
