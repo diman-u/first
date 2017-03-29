@@ -2,12 +2,14 @@
 @import url(css-fonts/rawline.css);
 @import url(css-fonts/circe.css);
 /********card styles*******/
+
 html {font-size: 16px;}
 img {
     max-width: 100%;
 }
 body {
     font-family: 'Circe', sans-serif;
+    -ms-overflow-style: scrollbar;
 }
 .card,
 .wide-card.nobg h4,
@@ -35,8 +37,14 @@ body {
 }
 .scroll {
     width: 23px;
+    height: 44.3px;
     align-self: flex-start;
-    margin-top: 500px;
+    /*margin-top: 500px;*/
+    position: fixed;
+    left: 50%;
+    top: 75%;
+    margin-left: -11.5px;
+    transition: none;
 }
 .cards-holder {
     display: flex;
@@ -45,7 +53,7 @@ body {
 }
 .cards-holder-one,
 .cards-holder-two {
-    max-width: 48%;
+    width: 48%;
 }
 .cards-holder-wide {
     width:100%;
@@ -65,7 +73,7 @@ body {
     }
     .cards-holder-one,
     .cards-holder-two {
-        max-width: 100%;
+        width: 100%;
     }
 
     .relax {
@@ -228,7 +236,7 @@ body {
     text-decoration: none;    
 }
 .card.bg .more:hover {
-    border: 0;
+    border: 2px solid #0090B6;
     text-decoration: none;
     background-color: #0090B6;    
 }
@@ -452,6 +460,10 @@ header {
     width: 150px;
     /*1height: 102px;*/
 }
+
+.logo:hover img {
+    opacity: .7;
+}
 @media screen and (max-width: 650px) {
     .logo {
         /*1position: static;*/
@@ -595,7 +607,7 @@ header {
     }
     .right a.check {
 
-        border:2px solid #22bfed;
+        border:1px solid #22bfed;
         border-radius:15px;
         background-position-x: 11px;
         padding:10px 30px 10px 60px;
@@ -606,12 +618,11 @@ header {
     .right a.check:hover {
         margin-top:17px;
         border-radius: 15px;
-        border: 2px solid #1B75BB;
+        border: 1px solid #1B75BB;
         background-position-x: 11px;
         padding:10px 30px 10px 60px;
         line-height:20px;
         height:40px;
-        border: 2px solid #1B75BB;
     }
 
 }
@@ -620,6 +631,9 @@ header {
     margin: 25px 8px 0 0;
 }
 
+.open-menu {
+    transition: none;
+}
 
 .open-menu.cards-holder {
     display: flex;
@@ -749,10 +763,10 @@ li.menu-items li:last-child {
     .left{
         flex-grow: 0;
     }
-    .logo{  width: 110px;   }
+    .logo img{  width: 110px;
+    }
     
-    #well_list { display: none; }
-    
+
     .contacts-open-menu a {
             padding-left: 32px;
             font-size: 14px;
@@ -764,7 +778,9 @@ li.menu-items li:last-child {
 @media (min-width: 768px) and (max-width: 992px) {
 
     #header-left{   width: 220px;   }
-    #well_list { display: none; }
+
+
+
     .right .check{
         border-radius: 10px;
         padding: 0px 38px;
@@ -1184,11 +1200,129 @@ footer .block-1 {
 }
 
 
+/* WELLNESS MENU ANIMATIONS */
+.wells .active + #well_list {
+    overflow-y: hidden;
+    max-height: 500px; /* approximate max height */
+
+    transition-property: all;
+    transition-duration: .5s;
+}
+.wells #well_list { max-height: 0;
+    overflow-y: hidden;
+
+    transition-property: all;
+    transition-duration: .5s;
+}
+@media (max-width: 450px) {
+    .wells .active + #well_list {
+        max-height: 300px;
+    }
+}
 
 
+/* form from old design styles */
+
+[name="lastname"] {
+    display: none !important;
+}
+
+.js-h-form + form{
+    display: none;
+}
+
+.form-record {
+    position: relative;
+}
+.form-record form{
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 0;;
+    width: 185px;
+    background-color: #38b9e8;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9999;
+
+}
+.form-record form input{
+    width: 100%;
+    height: 35px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 10px;
+}
+.form-record form input:first-child{
+    margin-top: 0;
+}
+.form-record form .btn-all{
+    width: 100%;
+    float: none;
+    background-color: #ccc;
+    color: #fff;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    transition: all 0.3s;
+}
+.form-record form .btn-all:hover, .form-record form .btn-all:focus, .form-record form .btn-all:active{
+    background-color: transparent;
+    color: #fff;
+}
+.sclose{
+    width: 25px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+}
+.sclose * {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+.required.error {
+    color: red;
+}
+
+#success {
+    z-index: 5000;
+}
+
+#success > h2 {
+    background: none repeat scroll 0 0 #e31e24;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    z-index: inherit;
+}
+#loading {
+    background: none repeat scroll 0 0 #fff;
+    padding: 20px;
+    width: 300px;
+    z-index: inherit;
+}
+#load {
+    background: none repeat scroll 0 0 #e31e24;
+    height: 10px;
+    width: 10%;
+    z-index: inherit;
+}
 
 
-
+a, input, button, img {
+/** {*/
+    transition: all 0.3s ease;
+}
 
 
 

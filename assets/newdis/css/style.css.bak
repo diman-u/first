@@ -24,7 +24,7 @@ html {
 
 .doctors-grid__status,
 .doctors-grid__skills,
-.photobox__content, .contentbox__promo-more-small {
+.photobox__content {
   font-family: 'Circe Extra Light', sans-serif;
 }
 
@@ -76,18 +76,6 @@ footer h4 {
   color: #fff;
 }
 
-.photobox a {
-  text-decoration: underline;
-  color: #fff;
-}
-
-.photobox a:hover {
-  text-decoration: none;
-}
-
-.photobox .photobox__button a {
-  text-decoration: none;
-}
 #content {
   margin-top: 2.6875rem;
 }
@@ -209,15 +197,6 @@ footer h4 {
   background-size: cover;
 }
 
-.contentbox-bg.sport {
-  background: url(../img/relaxdark-sport.jpg) center top no-repeat;
-  background-size: cover;
-}
-
-.contentbox-bg.sport .promo-grid {
-  padding-top: 10.3125rem;
-  padding-bottom: 5.625rem;
-}
 .contentbox-bg .contentbox-bg__head {
   width: 50%;
   margin: 0 auto 3.75rem auto;
@@ -267,7 +246,7 @@ footer h4 {
 .contentbox .contentbox__head {
   margin-bottom: 2.5rem;
   font-size: 3.125rem;
-  line-height: 3.125rem;
+  line-height: 2.5rem;
   color: #0dbeec;
 }
 
@@ -293,19 +272,11 @@ footer h4 {
   line-height: 1.9375rem;
 }
 
-.contentbox .contentbox__promo-more-small {
-  font-size: 1.375rem;
-  line-height: 1.9375rem;
-  color: #535353;
-}
 .contentbox .contentbox__limit-with {
   width: 69%;
   margin: 0 auto;
 }
 
-.contentbox .contentbox__limit-with.mb {
-  margin-bottom: 2.5rem;
-}
 .contentbox .contentbox__bigtext {
   font-size: 1.4375rem;
   line-height: 1.875rem;
@@ -368,37 +339,6 @@ footer h4 {
   border-color: #fff;
 }
 
-.greed-card {
-  width: 95%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  counter-reset: list 0;
-}
-
-.greed-card .greed-card__item {
-  position: relative;
-  width: calc(25% - 40px);
-  margin: 20px;
-  padding: 20px 10px 40px 20px;
-  border: 2px solid #0dbeec;
-  border-radius: 10px;
-  text-align: left;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.greed-card .greed-card__item:after {
-  position: absolute;
-  bottom: -0.625rem;
-  right: 1.5625rem;
-  counter-increment: list;
-  content: "¹ " counter(list);
-  font-size: 2.625rem;
-  line-height: 2.75rem;
-  color: #0dbeec;
-}
 .promo-grid {
   display: flex;
   flex-wrap: wrap;
@@ -881,9 +821,6 @@ footer h4 {
 }
 
 @media screen and (max-width: 1200px) {
-  .greed-card .greed-card__item {
-    width: calc(33.333333333333336% - 40px);
-  }
   .timeline {
     padding-left: 50px;
     padding-right: 50px;
@@ -933,17 +870,6 @@ footer h4 {
     display: none;
   }
 
-  .contentbox-bg.sport .promo-grid {
-    padding-top: 4.375rem;
-  }
-
-  .contentbox-bg.sport .promo-grid {
-    padding-bottom: 0;
-  }
-
-  .greed-card .greed-card__item {
-    width: calc(50% - 40px);
-  }
   .promo-grid .promo-grid__item {
     width: calc(50% - 30px);
   }
@@ -1038,9 +964,6 @@ footer h4 {
     line-height: 25px;
   }
 
-.greed-card .greed-card__item {
-    width: calc(80% - 40px);
-  }
   .promo-grid .promo-grid__item {
     width: calc(100% - 30px);
   }
@@ -1171,9 +1094,6 @@ footer h4 {
     font-size: 0.5625rem;
   }
 
-.greed-card .greed-card__item {
-    width: calc(90% - 40px);
-  }
   .promo-grid .promo-grid__item {
     padding: 0;
   }

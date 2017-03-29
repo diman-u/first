@@ -20,13 +20,16 @@
 
     <link rel="stylesheet" href="assets/newdis/css/bootstrap.css">
     <link rel="stylesheet" href="assets/newdis/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="assets/newdis/css/jquery.fancybox.css">
+<!--    <link rel="stylesheet" href="assets/newdis/css/lightbox.css">-->
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" href="assets/newdis/css/custom.css">
     <link rel="stylesheet" href="assets/newdis/css/style.css">
+    <link rel="stylesheet" href="assets/newdis/css/custom.css">
+    
 
 </head>

@@ -21,7 +21,17 @@
                 </div>
                 <div>
                     <a class="map" href="[[~12]]#map">Как нас найти</a>
-                    <a class="check js-h-form" href="#">Записаться</a>
+                    <span class="form-record">
+                        <a class="check js-h-form" href="javascript:void(0)">Записаться</a>
+                        <form class="record-form sendLead" id="record-form" action="/assets/newdis/php/submit.php" method="post" data-id="form_header_call">
+                            <div class="sclose"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></div>
+                            <input type="hidden" name="type" value="1" />
+                            <input type="text" name="lastname" value="" />
+                            <input name="name" type="text" placeholder="Как вас зовут" />
+                            <input name="phone" type="text" placeholder="Ваш телефон" data-type="phone" class="required" />
+                            <button onclick="console.log('form_header_call'); yaCounter27784569.reachGoal('form_header_call'); return true;" type="submit" class="btn-all" form="record-form">Записаться</button>
+                        </form>
+                    </span>
                     <a class="buy" href="[[~4]]">Купить</a>
                 </div>
             </div>
