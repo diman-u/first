@@ -208,7 +208,7 @@ footer h4 {
 }
 
 .photobox .photobox__button-check:after {
-  content: url(../img/card-more.png);
+  content: url(../img/check.svg);
   display: block;
   margin-top: 2.5rem;
   padding-bottom: 2.1875rem;
