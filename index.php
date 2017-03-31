@@ -1,5 +1,6 @@
 <?php include "head.php" ?>
 <?php include "header.php" ?>
+
 <main id="content">
     <div class="cards-holder">
 
@@ -107,18 +108,7 @@
 
     </div>
 
-    <div class="row">
-        <div class="col-xs-12 col-md-12">
-            <div class="callme">
-                <h4>Перезвоните мне:</h4>
-                <form>
-                    <input name="name" type="text" placeholder="Ваше имя"/>
-                    <input name="phone" type="text" placeholder="Телефон"/>
-                    <input name="submit" type="submit" value="Заказать звонок"/>
-                </form>
-            </div>
-        </div>
-    </div>
+    <?php include "call_me.php" ?>
 
     <section class="photobox photobox-not-margin">
 
@@ -180,20 +170,15 @@
             </div>
         </div>
 
-        <div class="col-xs-12 col-md-12 wide-card nobg hidden-xs">
-            <!--img src="assets/newdis/img/yandexmap.jpg" style="max-width:100%;" /-->
-            <span id="map">1</span>
-            <script type="text/javascript" charset="utf-8" async
-                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A88b56f7f3b1172bb5b3da9a4863e42bb2376ccb72427c9cf669937ddb4b7b694&amp;width=100%25&amp;height=450&amp;lang=ru_RU&amp;scroll=false"></script>
-        </div>
+        <?php include "map.php" ?>
 
-        <div class="col-xs-12 col-md-12 wide-card nobg visible-xs">
+        <!-- <div class="col-xs-12 col-md-12 wide-card nobg visible-xs">
             <span id="map"></span>
             <div class="map_mobile">
                 <script type="text/javascript" charset="utf-8" async
                         src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A88b56f7f3b1172bb5b3da9a4863e42bb2376ccb72427c9cf669937ddb4b7b694&amp;width=320&amp;height=450&amp;lang=ru_RU&amp;scroll=false"></script>
             </div>
-        </div>
+        </div> -->
 
     </div>
 

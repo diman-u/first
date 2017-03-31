@@ -1,6 +1,12 @@
 <?php include "head.php" ?>
 <?php include "header.php" ?>
 
+    <section class="breadcrumbs" id="breadcrumbs">
+        <ul class="breadcrumbs__list">
+            <li class="breadcrumbs_item"><a href="#">О центре</a></li>
+            <li class="breadcrumbs_item"><a href="#">Специалисты</a></li>
+        </ul>
+    </section>
     <main  id="content">
     
 

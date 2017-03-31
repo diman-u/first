@@ -4,14 +4,14 @@
         <div class="header-holder">
             <nav class="left" id="header-left">
                 <a class="menu"></a>
-                <a class="facebook" href="#" id="facebook"></a>
-                <a class="instagram" href="#" id="instagram"></a>
-                <a class="gift" href="#" id="gift">Подарочные сертификаты</a>
+                <a class="facebook" href="https://www.facebook.com/floatstudiomoscow?fref=ts" id="facebook"></a>
+                <a class="instagram" href="https://www.instagram.com/floatstudio_msk/" id="instagram"></a>
+                <a class="gift" href="http://present.floatstudio.ru/" id="gift">Подарочные сертификаты</a>
             </nav>
             <div class="logo"><a href="/"><img src="assets/newdis/img/logo_main.svg"/></a></div>
             <div class="right_mobile">
                 <div>
-                    <a href="#"><img src="assets/newdis/img/icon_header_phone.svg"/></a>
+                    <a href="tel:+74991105210"><img src="assets/newdis/img/icon_header_phone.svg"/></a>
                 </div>
             </div>
             <div class="right">
@@ -45,19 +45,19 @@
                             <li class="menu-items wells"><a click="javascript.void(0)"
                                                             class="active">Wellness</a>
                                 <ul id="well_list">
-                                    <li><a href="#">Релаксация и восстановление</a></li>
-                                    <li><a href="#">Здоровая беременность</a></li>
-                                    <li><a href="#">Натуральная красота и омоложение</a>
+                                    <li><a href="[[~32]]">Релаксация и восстановление</a></li>
+                                    <li><a href="[[~36]]">Здоровая беременность</a></li>
+                                    <li><a href="[[~34]]">Натуральная красота и омоложение</a>
                                     </li>
-                                    <li><a href="#">Восстановление спортсменов</a></li>
-                                    <li><a href="#">Здоровое питание</a></li>
-                                    <li><a href="#">Лайф- и Wellness-коучинг</a></li>
+                                    <li><a href="[[~37]]">Восстановление спортсменов</a></li>
+                                    <li><a href="[[~35]]">Здоровое питание</a></li>
+                                    <li><a href="[[~33]]">Лайф- и Wellness-коучинг</a></li>
                                     <div>
-                                        <a href="#" class="more">Все услуги</a>
+                                        <a href="[[~9]]" class="more">Все услуги</a>
                                     </div>
                                 </ul>
                             </li>
-                            <li class="menu-items med"><a href="#">Медицина</a>
+                            <li class="menu-items med"><a href="[[~37]]">Медицина</a>
                                 <img src="assets/newdis/img/icure_logo_color.svg" width="140"
                                      height=""/>
                             </li>
@@ -66,7 +66,11 @@
 
                     <div class="col-xs-12 col-md-7">
                         <div class="row">
-                            <?php include "nav.php" ?>
+                            <!-- NAV >>> -->
+                            <?php
+                            include "nav.php"
+                             //INCLUDE!!!!!!!!!!!!!!!!!!! ?>
+                            <!-- <<<NAV  -->
                         </div>
                     </div>
 
@@ -93,8 +97,8 @@
                 </div>
 
                 <div class="soc-bottom soc-bottom-left">
-                    <a class="facebook" href="#"></a>
-                    <a class="instagram" href="#"></a>
+                      <a class="facebook" href="https://www.facebook.com/floatstudiomoscow?fref=ts"></a>
+                      <a class="instagram" href="https://www.instagram.com/floatstudio_msk/"></a>
                 </div>
 
                 <div class="about-links">

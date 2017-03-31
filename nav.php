@@ -1,28 +1,28 @@
 <div class="col-xs-6 mega-menu__mid">
     <ul>
-        <li class="menu-items"><a href="#">О центре</a>
+        <li class="menu-items"><a href="[[~7]]">О центре</a>
             <ul>
-                <li><a href="#">Галерея</a></li>
-                <li><a href="#">Специалисты</a></li>
-                <li><a href="#">Виртуальный тур</a></li>
-                <li><a href="#">Мы в СМИ</a></li>
-                <li><a href="#">Клиенты о нас</a></li>
-                <li><a href="#">Блог</a></li>
+                <li><a href="[[~18]]">Галерея</a></li>
+                <li><a href="[[~43]]">Специалисты</a></li>
+                <li><a href="[[~20]]">Виртуальный тур</a></li>
+                <li><a href="[[~21]]">Мы в СМИ</a></li>
+                <li><a href="[[~22]]">Клиенты о нас</a></li>
+                <li><a href="[[~95]]">Блог</a></li>
             </ul>
         </li>
-        <li class="menu-items"><a href="#">Флоатинг</a>
+        <li class="menu-items"><a href="[[~8]]">Флоатинг</a>
             <ul>
-                <li><a href="#">Что это?</a></li>
-                <li><a href="#">Инструкция</a></li>
-                <li><a href="#">Технология и<br>безопасность</a></li>
-                <li><a href="#">Эффект</a></li>
+                <li><a href="[[~23]]">Что это?</a></li>
+                <li><a href="[[~26]]">Инструкция</a></li>
+                <li><a href="[[~25]]">Технология и<br>безопасность</a></li>
+                <li><a href="[[~24]]">Эффект</a></li>
             </ul>
         </li>
     </ul>
     <ul class="right-about-menu list-mobile">
-        <li class="menu-items"><a href="#">Цены</a>
-        <li class="menu-items"><a href="#">Контакты</a>
-        <li class="menu-items"><a href="#">Купить on-line</a>
+        <li class="menu-items"><a href="[[~11]]">Цены</a>
+        <li class="menu-items"><a href="[[~12]]">Контакты</a>
+        <li class="menu-items"><a href="[[~4]]">Купить on-line</a>
     </ul>
 </div>
 <div class="col-xs-6">
@@ -31,7 +31,7 @@
         <li class="menu-items right-list"><a href="[[~11]]">Цены</a>
         <li class="menu-items right-list"><a href="[[~12]]">Контакты</a>
         <li class="menu-items right-list"><a href="[[~4]]">Купить on-line</a>
-        <li class="menu-items-img"><img src="assets/newdis/img/gift_image.png"> <a href="#"
+        <li class="menu-items-img"><img src="assets/newdis/img/gift_image.png"> <a href="http://present.floatstudio.ru/"
                                                                      class="more">Подробнее</a>
         </li>
         <li class="contacts-open-menu">

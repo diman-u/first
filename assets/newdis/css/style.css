@@ -28,8 +28,7 @@ html {
 
 .doctors-grid__status,
 .doctors-grid__skills,
-.contentbox__promo-more-small,
-.contacts p {
+.contentbox__promo-more-small {
   font-family: 'Circe Extra Light', sans-serif;
 }
 
@@ -157,6 +156,7 @@ footer h4 {
   text-align: center;
   color: #fff;
   opacity: 0.9;
+  text-shadow: -1px 0px 30px rgba(84, 84, 84, 1);
 }
 
 .photobox .photobox__content-newformat {
@@ -209,7 +209,7 @@ footer h4 {
 }
 
 .photobox .photobox__button-check:after {
-  content: url(../img/arrow_down.svg);
+  content: url(../img/check.svg);
   display: block;
   margin-top: 2.5rem;
   padding-bottom: 2.1875rem;
@@ -363,11 +363,11 @@ footer h4 {
 
 .contentbox.contentbox-bg {
   margin-bottom: 0;
-  padding-bottom: 0;
+  padding-bottom: 100px;
 }
 
 .contentbox.contentbox__bluewaves {
-  margin-top: -1.25rem;
+  margin-top: -50px;
   margin-bottom: 5.625rem;
   position: relative;
   background: #0dbeec;
@@ -386,12 +386,12 @@ footer h4 {
 .contentbox.contentbox__bluewaves .contentbox__promo {
   width: 80%;
   margin-bottom: 3.125rem;
-  padding-top: 3.75rem;
+  padding-top: 5.3125rem;
   color: #fff;
 }
 
 .contentbox.contentbox__bluewaves .contentbox__buttons {
-  padding-bottom: 1.875rem;
+  padding-bottom: 3.125rem;
 }
 
 .contentbox.contentbox__bluewaves .contentbox__buttons a {
@@ -499,7 +499,7 @@ footer h4 {
 
 .promo-grid.promo-grid__compact .promo-grid__item img,
 .promo-grid.promo-grid__compact .promo-grid__head {
-  margin-bottom: 0.625rem;
+  margin-bottom: 1.25rem;
 }
 
 .timeline {
@@ -858,11 +858,6 @@ footer h4 {
   cursor: default;
 }
 
-.geomap {
-  margin-top: 10px;
-  margin-bottom: 60px;
-}
-
 .breadcrumbs {
   margin-top: -1.25rem;
   margin-bottom: 3.4375rem;
@@ -927,34 +922,6 @@ footer h4 {
   background: #0dbeec;
   color: #fff;
   cursor: default;
-}
-
-.wide-card.nobg.contacts {
-  margin-bottom: 4.375rem;
-}
-
-.wide-card.nobg.contacts .contacts__head {
-  margin-top: 1.875rem;
-  margin-bottom: 1.25rem;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  color: #acacac;
-}
-
-.wide-card.nobg.contacts p {
-  width: 80%;
-  font-size: 18px;
-  line-height: 24px;
-  color: #535353;
-}
-
-.wide-card.nobg.contacts img {
-  width: 120px;
-  height: 120px;
-}
-
-.wide-card.nobg.contacts .contact-info a {
-  color: #666465;
 }
 
 .mb {
@@ -1107,6 +1074,8 @@ footer h4 {
 
   .photobox .photobox__content {
     width: 100%;
+    line-height: initial;
+    font-size: 1rem;
   }
 
   .contentbox .contentbox__promo {

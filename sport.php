@@ -243,18 +243,7 @@
   </section>
 
 
-  <section class="contentbox">
-
-      <div class="callme">
-          <h4>Перезвоните мне:</h4>
-          <form>
-              <input name="name" type="text" placeholder="Ваше имя"/>
-              <input name="phone" type="text" placeholder="Телефон"/>
-              <input name="submit" type="submit" value="Заказать звонок"/>
-          </form>
-      </div>
-
-  </section>
+  <?php include "call_me.php" ?>
 
 
   <section class="photobox photobox-not-margin">
@@ -270,8 +259,7 @@
   </section>
 
 
- 	
- <div class="row">
+ 	<div class="row">
         <div class="col-xs-12 col-md-12 wide-card nobg wide-card__promo">
             <h4>Современное пространство целостного оздоровления в самом центре
                 Москвы</h4>
@@ -295,7 +283,7 @@
                         allowfullscreen></iframe>
                 <!--                 <div class="imgheader video">
                                     <a href="#">
-                                        <img src="img/photo_video.jpg" alt="">
+                                        <img src="assets/newdis/img/photo_video.jpg" alt="">
                                         <div class="wide-text">
                                             <h4>Видео о флоат-студии</h4>
                                         </div>
@@ -318,43 +306,38 @@
             </div>
         </div>
 
+        <?php include "map.php" ?>
+
     </div>
-
-    <section class="geomap">
-
-        <script type="text/javascript" charset="utf-8" async
-        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A88b56f7f3b1172bb5b3da9a4863e42bb2376ccb72427c9cf669937ddb4b7b694&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
-
-    </section>
-
 
     <div class="row">
         <div class="col-xs-12 col-md-4 wide-card nobg contacts">
-            <img src="assets/newdis/img/icon_1_phone.svg" alt="Контакт"/>
-            <h4 class="contacts__head">Контакт</h4>
-            <p class="contact-info">Тел: <a href="tel:84991105210">+7 (499)
+            <img src="assets/newdis/img/icon_1_phone.svg" style="width:100px;" alt="Контакт"/>
+            <h4>Контакт</h4>
+            <p>Тел: <a style="color:#666465;" href="tel:84991105210">+7 (499)
                     110-52-10</a></p>
-            <p class="contact-info">Email: <a href="mailto:info@floatstudio.ru">info@floatstudio.ru</a>
+            <p>Email: <a style="color:#666465;" href="mailto:info@floatstudio.ru">info@floatstudio.ru</a>
             </p>
         </div>
 
         <div class="col-xs-12 col-md-4 wide-card nobg  contacts">
-            <img src="assets/newdis/img/icon_2_map.svg" alt="Адрес"/>
-            <h4 class="contacts__head">Адрес</h4>
+            <img src="assets/newdis/img/icon_2_map.svg" style="width:100px;" alt="Адрес"/>
+            <h4>Адрес</h4>
             <p>Наш центр находится по адресу: улица Большая Татарская 7, на первом этаже,
                 справа от бизнес-центра Букбридж.
                 Вход со стороны Руновского переулка (за магазином Магнолия)</p>
         </div>
 
         <div class="col-xs-12 col-md-4 wide-card nobg  contacts">
-            <img src="assets/newdis/img/icon_3_car.svg" alt="Адрес"/>
-            <h4 class="contacts__head">На автомобиле</h4>
+            <img src="assets/newdis/img/icon_3_car.svg" style="width:100px;" alt="Адрес"/>
+            <h4>На автомобиле</h4>
             <p class="strong-bold">Парковка бесплатная.</p>
             <p>Свяжитесь с администратором для заказа пропуска. Двигайтесь по
                 одностороннему Руновскому переулку, перед домом
                 №7 поворачивайте к шлагбауму с КПП.</p>
         </div>
     </div>
+
 
 
     <section class="contentbox contentbox-not-margin">
@@ -364,7 +347,7 @@
     </section>
 
 
-    </main>
+</main>
 
    <?php include "footer.php" ?>
 

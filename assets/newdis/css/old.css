@@ -1,0 +1,205 @@
+.cards-holder {
+    column-count: 2;
+    -moz-column-count: 2;
+    column-gap: 50px;
+    -moz-column-gap: 50px;
+    /*width: 1178px;*/
+    width:100%;
+    margin: 0 auto;
+}
+.cards-holder-wide {
+    width:100%;
+    margin: 0 auto;
+    margin-bottom:50px;
+}
+.floating {
+    margin-top:50px;
+}
+@media only screen and (max-width: 767px) {
+    .cards-holder{
+        column-count: 1;
+        -moz-column-count: 1;
+        /*width:564px;*/
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .relax {
+        order: 1;
+    }
+    .floating {
+        order: 2;
+        margin-top:0;
+    }
+    .pregnancy {
+        order: 3;
+    }
+    .nutrition {
+        order: 4;
+    }
+    .beauty {
+        order: 5;
+    }
+    .wellness {
+        order: 6;
+    }
+    .recovery {
+        order: 7;
+    }
+    .recovery_text {
+        order: 8;
+    }
+}
+.card {
+    flex: 1 1 564px;
+    display: inline-block;
+    font-size: 35px;
+    margin-bottom: 30px;
+    width: 100%;
+    color: #aeadae;
+    position:relative;
+    /*font-family: 'Circe Light',sans-serif;*/
+
+}
+.card strong, .card a {
+    color: #55c2f0;
+}
+.card.bg h4 {
+    /*font-size: 55px;*/
+    /*font-size: 4.5rem;*/
+    font-size:4vw;
+    /*font-family: 'Circe Bold',sans-serif;
+    font-weight: normal;*/
+    font-weight:bold;
+    color: white;
+    text-align: center;
+    padding: 150px 0 170px 0;
+
+}
+.under-text {
+    position:absolute;
+    bottom:0;
+    text-align:center;
+    width:100%;
+}
+.card.bg p, .card.bg a {
+    font-size:2vw;
+    line-height:2.3vw;
+    /*font-size: 25px;
+    line-height: 32px;*/
+    font-weight: normal;
+    /*font-family: 'Circe',sans-serif;*/
+
+    color: white;
+    text-align: center;
+    padding:0 3%;
+}
+@media only screen and (min-width: 1024px) {
+    .card.bg h4 {font-size:55px;}
+    .card.bg p, .card.bg a {font-size:25px;line-height:32px;}
+
+}
+.card p {
+    margin-bottom:50px;
+    word-wrap:break-word;
+}
+.card a {
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid #00C0F3;
+    text-decoration:none;
+
+}
+.card a:hover,.card a:focus, .more:hover, .more:focus,.callme input[type="submit"]:hover,.callme input[type="submit"]:focus {
+     background-color:#00C0F3;
+     color:white;
+     text-decoration:none;
+}
+.card a:active, a.more:active,.callme input[type="submit"]:active {
+    background-color:#1B75BB;
+    color:white;
+    text-decoration:none;
+}
+.card.bg a {
+    border: 2px solid white;
+}
+.card i {
+    text-decoration: underline;
+    font-style: normal;
+}
+.card.bg {
+    flex:1 1 564px;
+    /*width: 564px;*/
+    height: 800px;
+    background-image: url(../img/waves.svg),
+    linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+    ), url(../img/photo_relax.jpg);
+    background-position: center bottom, center bottom, center top;
+    background-repeat: no-repeat;
+    /*background-size: auto 50%, auto, auto 60%;*/
+    background-size:  100% 50%, auto, cover;
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.card.bg.wide {
+    flex: 1 1 100%;
+    width:100%;
+    height:auto;
+    /*background-size: 100% 50%, auto, cover ;
+    background-position: center bottom, center bottom, center bottom;*/
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+    ), url(../img/photo_relax.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.card.bg.wide a {
+    padding:10px 20px;
+}
+.card.bg.relax {
+    background-image: url(../img/waves.svg),
+    linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+    ), url(../img/photo_relax.jpg);
+}
+.card.bg.wide.relax {
+    background-image:
+    linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+    ), url(../img/photo_relax.jpg);
+}
+.card.bg.pregnancy {
+    background-image: url(../img/waves.svg),
+    linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+    ), url(../img/photo_pregnancy.jpg);
+}
+.card.bg.beauty {
+    background-image: url(../img/waves.svg),
+    linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+    ), url(../img/photo_beaty.jpg);
+}
+.card.bg.recovery {
+    background-image: url(../img/waves.svg),
+    linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+    ), url(../img/photo_recovery.jpg);
+}
+.column-break {
+    -webkit-column-break-before: always;
+    break-before: column;
+}

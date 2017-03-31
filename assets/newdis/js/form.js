@@ -24,11 +24,11 @@ $(function() {
 	/*$('form textarea').each(function(){
 		$(this).attr('title',$(this).val());
 	});*/
-	
-	$('form input[type=text], form textarea').bind('click keydown',function(){
+
+	$('form input[type=text], form textarea, form input[type=number]').bind('click keydown',function(){
 		$(this).attr('placeholder','');
 	});
-	$('form input[type=text], form textarea').bind('blur',function(){
+	$('form input[type=text], form textarea, form input[type=number]').bind('blur',function(){
 		$(this).attr('placeholder',$(this).attr('title'));
 	});
 
@@ -56,7 +56,7 @@ $(function() {
                 return;
             }
             // if(form.attr('action') == '/assets/template/php/mail.php'){
-                
+
             //     // setTimeout($(this).submit(), 1000);
             // }else{
             // }
@@ -158,4 +158,4 @@ function startLoadingAnimation() {
 }
 function stopLoadingAnimation() {
     clearInterval(animation);
-} 
+}

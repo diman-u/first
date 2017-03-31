@@ -9,36 +9,36 @@
         </div>
     </div>
     <div class="block-2 blocks">
-        <h4><a href="#">О центре</a></h4>
-        <a href="#">Галерея</a>
-        <a href="#">Специалисты</a>
-        <a href="#">Виртуальный тур</a>
-        <a href="#">Мы в СМИ</a>
-        <a href="#">Клиенты о нас</a>
-        <a href="#">Блог</a>
+        <h4><a href="[[~7]]">О центре</a></h4>
+        <a href="[[~18]]">Галерея</a>
+        <a href="[[~43]]">Специалисты</a>
+        <a href="[[~20]]">Виртуальный тур</a>
+        <a href="[[~21]]">Мы в СМИ</a>
+        <a href="[[~22]]">Клиенты о нас</a>
+        <a href="[[~95]]">Блог</a>
     </div>
     <div class="block-3 blocks">
-        <h4><a href="#">Флоатинг</a></h4>
-        <a href="#">Что это?</a>
-        <a href="#">Инструкция</a>
-        <a href="#">Технология и безопасность</a>
-        <a href="#">Эффект</a>
+        <h4><a href="[[~8]]">Флоатинг</a></h4>
+        <a href="[[~23]]">Что это?</a>
+        <a href="[[~26]]">Инструкция</a>
+        <a href="[[~25]]">Технология и безопасность</a>
+        <a href="[[~24]]">Эффект</a>
     </div>
     <div class="block-4 blocks">
-        <h4><a href="#">Цены</a></h4>
-        <a href="#">Контакты</a>
-        <a href="#">Купить on-line</a>
-        <a href="#">Подарочные сертификаты</a>
-        <a href="#">Все услуги</a>
+        <h4><a href="[[~11]]">Цены</a></h4>
+        <a href="[[~12]]">Контакты</a>
+        <a href="[[~4]]">Купить on-line</a>
+        <a href="http://present.floatstudio.ru/">Подарочные сертификаты</a>
+        <a href="[[~105]]">Все услуги</a>
     </div>
     <!--       </div>
-  <!--   </div>
+  </div>
 </div>-->
 </footer>
 
 <div class="soc-bottom" id="sochide">
-    <a class="facebook" href="#"></a>
-    <a class="instagram" href="#"></a>
+    <a class="facebook" href="https://www.facebook.com/floatstudiomoscow?fref=ts"></a>
+    <a class="instagram" href="https://www.instagram.com/floatstudio_msk/"></a>
 </div>
 
 </div>

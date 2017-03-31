@@ -30,7 +30,8 @@
                 <p class="prof_fio">Юлия Лузько</p>
                 <p class="prof_offer">Массаж, реоформинг/лифтинг лица специалист
                   по работе с беременными</p>
-                <a href="#" class="more_hover">Записаться на приём</a> </div>
+                <p class="priem"><a href="#" class="more_hover">Записаться на приём</a></p>
+              </div>
             </div>
           </div>
         </div>
