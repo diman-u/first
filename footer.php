@@ -47,6 +47,13 @@
 <script src="assets/newdis/js/custom.js"></script>
 <script src="assets/newdis/js/form.js"></script>
 <script src="assets/newdis/js/jquery.fancybox.pack.js"></script>
+<!-- Yandex map render -->
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script src="assets/newdis/js/yandex.map.js"></script>
+<!-- END Yandex map render -->
+
+
+
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {

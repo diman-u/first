@@ -162,17 +162,10 @@
             </div>
         </div>
 
-        <?php include "map.php" ?>
-
-        <!-- <div class="col-xs-12 col-md-12 wide-card nobg visible-xs">
-            <span id="map"></span>
-            <div class="map_mobile">
-                <script type="text/javascript" charset="utf-8" async
-                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A88b56f7f3b1172bb5b3da9a4863e42bb2376ccb72427c9cf669937ddb4b7b694&amp;width=320&amp;height=450&amp;lang=ru_RU&amp;scroll=false"></script>
-            </div>
-        </div> -->
 
     </div>
+
+    <?php include "map.php" ?>
 
     <div class="row">
         <div class="col-xs-12 col-md-4 wide-card nobg contacts">
