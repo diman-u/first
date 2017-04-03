@@ -1624,3 +1624,17 @@ a, input, button, img {
 .priem{
     margin-bottom: 30px;
 }
+
+
+
+
+
+
+
+/* For Animation */
+.novisible{
+     opacity:0 !important;
+}
+.visible{
+     opacity:1 !important;
+}

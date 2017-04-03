@@ -91,4 +91,31 @@ $(document).ready(function() {
     });
 
 
+/*
+MAIN blocks animate
+http://www.web2feel.com/tutorial-for-animated-scroll-loading-effects-with-animate-css-and-jquery 
+*/
+
+    $('.textcard').addClass('novisible').viewportChecker({
+        classToAdd: 'visible animated flipInX',
+        offset: 100
+       });
+
+    $('.bg.rightanimate').addClass('novisible').viewportChecker({
+        classToAdd: 'visible animated bounceInRight',
+        offset: 100
+       });
+
+    $('.bg.leftanimate').addClass('novisible').viewportChecker({
+        classToAdd: 'visible animated bounceInLeft',
+        offset: 100
+       });
+
+
+
+
+
+
+
+
 });

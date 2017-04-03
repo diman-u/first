@@ -4,7 +4,7 @@
 <main id="content">
     <div class="cards-holder">
 
-        <div class="card bg relax">
+        <div class="card bg relax leftanimate">
             <div class="imgheader">
                 <img src="assets/newdis/img/photo_relax.jpg" alt="">
                 <h4>Релаксация<br>и&nbsp;восстановление</h4>
@@ -19,14 +19,14 @@
             </div>
         </div>
 
-        <div class="card nutrition">
+        <div class="card nutrition leftanimate textcard">
             <h2 class="title-nobg"><a href="#">Оздоровление питанием</a></h2>
             <p>c помощью уникального сочетания опыта тибетской медицины,
                 фитотерапии, ДНК-тестирования, детокса.</p>
             <p class="left-but"><a class="more" href="[[~35]]">Подробнее</a></p>
         </div>
 
-        <div class="card bg beauty">
+        <div class="card bg beauty leftanimate">
             <div class="imgheader">
                 <img src="assets/newdis/img/photo_beaty.jpg" alt="">
                 <h4>Натуральная красота и&nbsp;омоложение</h4>
@@ -39,7 +39,7 @@
             </div>
         </div>
 
-        <div class="card recovery_text">
+        <div class="card recovery_text leftanimate textcard">
             <h2 class="title-nobg"><a href="[[~37]]">Восстановление спортсменов...</a></h2>
             <p>Избавиться от хронической усталости, снять тревожность и устранить боль
                 поможет индивидуальный подход с
@@ -51,7 +51,7 @@
 
         <img src="assets/newdis/img/scrolling.svg" alt="" class="scroll">
 
-        <div class="card floating column-break">
+        <div class="card floating column-break rightanimate textcard">
             <p><span class="title-nobg"><a href="#">Флоатинг</a></span> - самый
                 эффективный и быстрый метод глубочайшего расслабления и восстановления
                 за
@@ -60,7 +60,7 @@
             <p class="left-but"><a class="more" href="[[~23]]">Подробнее о флоатинге</a></p>
         </div>
 
-        <div class="card bg pregnancy">
+        <div class="card bg pregnancy rightanimate">
             <div class="imgheader">
                 <img src="assets/newdis/img/photo_pregnancy.jpg" alt="">
                 <h4>Здоровая беременность</h4>
@@ -76,7 +76,7 @@
             </div>
         </div>
 
-        <div class="card wellness">
+        <div class="card wellness rightanimate textcard">
             <p><span class="title-nobg"><a href="#">Лайф и Wellness
                         коучинг.</a></span>
                 Текст
@@ -85,7 +85,7 @@
             <p class="left-but"><a class="more" href="#">Подробнее</a></p>
         </div>
 
-        <div class="card bg recovery">
+        <div class="card bg recovery rightanimate">
             <div class="imgheader">
                 <img src="assets/newdis/img/photo_recovery.jpg" alt="">
                 <h4>Восстановительная медицина</h4>
@@ -101,8 +101,8 @@
     </div>
 
     <div class="row">
-    	
-    	<?php include "call_me.php" ?>
+        
+        <?php include "call_me.php" ?>
 
     </div>
 
@@ -137,19 +137,9 @@
     <div class="row">
 
         <div class="col-xs-12 col-md-12 wide-card bg about">
-            <div class="card-content">
-                <iframe width="100%" height="500px"
-                        src="https://www.youtube.com/embed/me4na9Yqmf4" frameborder="0"
-                        allowfullscreen></iframe>
-                <!--                 <div class="imgheader video">
-                                    <a href="#">
-                                        <img src="assets/newdis/img/photo_video.jpg" alt="">
-                                        <div class="wide-text">
-                                            <h4>Видео о флоат-студии</h4>
-                                        </div>
-                                    </a>
-                                </div> -->
-            </div>
+            
+            <?php include "video.php" ?>
+
         </div>
 
         <div class="col-xs-12 col-md-12">

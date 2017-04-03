@@ -31,5 +31,6 @@
     
     <link rel="stylesheet" href="assets/newdis/css/custom.css">
     <link rel="stylesheet" href="assets/newdis/css/style.css">
+    <link rel="stylesheet" href="assets/newdis/css/animate.css">
 
 </head>

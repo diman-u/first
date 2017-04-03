@@ -371,8 +371,8 @@ footer h4 {
 }
 
 .contentbox .contentbox__phones a {
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 1.5625rem;
+  line-height: 1.875rem;
   color: #000;
 }
 
@@ -671,7 +671,7 @@ footer h4 {
 
 .promo-grid-square .promo-grid-square__item {
   width: calc(33.333333333333336% - 10px);
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
   text-align: left;
 }
 
@@ -681,14 +681,14 @@ footer h4 {
 }
 
 .promo-grid-square .promo-grid-square__item img {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
   min-width: 100%;
 }
 
 .promo-grid-square .promo-grid-square__head {
   margin-bottom: 10px;
-  font-size: 25px;
-  line-height: 26px;
+  font-size: 1.5625rem;
+  line-height: 1.625rem;
   color: #0dbeec;
 }
 
@@ -710,8 +710,8 @@ footer h4 {
 
 .promo-grid-square .promo-grid-square__price {
   margin-bottom: 1.25rem;
-  font-size: 30px;
-  line-height: 37px;
+  font-size: 1.875rem;
+  line-height: 2.3125rem;
   color: #000;
 }
 
@@ -722,11 +722,6 @@ footer h4 {
 .promo-grid-square .contentbox__buttons {
   -ms-flex-pack: start;
       justify-content: flex-start;
-}
-
-.promo-grid-square .more {
-  font-size: 25px;
-  line-height: 26px;
 }
 
 .contentbox-doctors {
@@ -1367,5 +1362,11 @@ footer h4 {
   .sort-doctors {
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .greed-card .greed-card__item:after {
+    bottom: 0.75rem;
   }
 }

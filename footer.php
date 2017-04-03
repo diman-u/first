@@ -43,6 +43,7 @@
 
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="assets/newdis/js/jquery.viewportchecker.min.js"></script>
 <script src="assets/newdis/js/bootstrap.js"></script>
 <script src="assets/newdis/js/custom.js"></script>
 <script src="assets/newdis/js/form.js"></script>
