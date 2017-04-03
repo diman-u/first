@@ -96,7 +96,7 @@ footer h4 {
 }
 
 .photobox {
-  position: relative !important;
+  position: relative;
   margin-bottom: 6.25rem;
 }
 
@@ -131,10 +131,14 @@ footer h4 {
   height: 100%;
   top: 0;
   left: 0;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
   overflow: hidden;
 }
 
@@ -170,23 +174,31 @@ footer h4 {
 }
 
 .photobox .photobox__content-around {
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
-  flex-direction: column;
-  justify-content: space-between;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
   height: 100%;
   margin: 0 auto;
 }
 
 .photobox .photobox__content-middle {
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
-  flex-direction: column;
-  justify-content: space-around;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   height: 70%;
   margin: 0 auto;
 }
@@ -344,11 +356,14 @@ footer h4 {
 }
 
 .contentbox .contentbox__buttons {
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 .contentbox .contentbox__buttons .more {
@@ -408,9 +423,12 @@ footer h4 {
 .greed-card {
   width: 95%;
   margin: 0 auto 6.25rem auto;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
   counter-reset: list 0;
 }
 
@@ -439,11 +457,14 @@ footer h4 {
 }
 
 .promo-grid {
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   margin-bottom: -0.8125rem;
 }
 
@@ -507,11 +528,14 @@ footer h4 {
   padding-left: 25px;
   padding-right: 25px;
   margin: 0 auto;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   color: #a0a0a0;
 }
 
@@ -557,22 +581,27 @@ footer h4 {
 }
 
 .contentbox__two-column {
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
   margin-bottom: 1.25rem;
-  justify-content: space-between;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
   text-align: left;
 }
 
 .contentbox__two-column .contentbox__left-column {
-  flex: 1 1 6.25rem;
+  -ms-flex: 1 1 6.25rem;
+      flex: 1 1 6.25rem;
   padding-left: 3.4375rem;
 }
 
 .contentbox__two-column .contentbox__right-column {
-  flex: 2 1 12.5rem;
+  -ms-flex: 2 1 12.5rem;
+      flex: 2 1 12.5rem;
   padding: 0 1.875rem 0 5.3125rem;
 }
 
@@ -632,9 +661,12 @@ footer h4 {
 }
 
 .promo-grid-square {
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
 }
 
 .promo-grid-square .promo-grid-square__item {
@@ -688,7 +720,8 @@ footer h4 {
 }
 
 .promo-grid-square .contentbox__buttons {
-  justify-content: flex-start;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
 }
 
 .promo-grid-square .more {
@@ -746,11 +779,14 @@ footer h4 {
 }
 
 .doctors-grid {
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 .doctors-grid .doctors-grid__item {
@@ -816,12 +852,15 @@ footer h4 {
 }
 
 .sort-doctors .sort-doctors__list {
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
   counter-reset: list 0;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 .sort-doctors .sort-doctors__item {
@@ -1011,7 +1050,8 @@ footer h4 {
   }
 
   .photobox .photobox__content-around {
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 
   .photobox .photobox__content-middle {
@@ -1158,7 +1198,8 @@ footer h4 {
   }
 
   .contentbox__two-column .contentbox__left-column {
-    flex: 1 1 31.25rem;
+    -ms-flex: 1 1 31.25rem;
+        flex: 1 1 31.25rem;
   }
 
   .contentbox__two-column .contentbox__left-column {
@@ -1166,7 +1207,8 @@ footer h4 {
   }
 
   .contentbox__two-column .contentbox__right-column {
-    flex: 1 1 31.25rem;
+    -ms-flex: 1 1 31.25rem;
+        flex: 1 1 31.25rem;
   }
 
   .contentbox__two-column .contentbox__right-column {
@@ -1187,7 +1229,8 @@ footer h4 {
   }
 
   .promo-grid-square {
-    justify-content: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
 
   .promo-grid-square .promo-grid-square__item {

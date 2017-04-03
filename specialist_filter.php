@@ -215,14 +215,8 @@
 
         </section>
 
-
-        <section class="contentbox contentbox-not-margin">
-
-            <h4 class="contentbox__phones"><a href="tel:84991105210">+7 (499) 110-52-10</a></h4>
-
-        </section>
-
-
+        <?php include "phones.php" ?>
+        
     </main>
 
 <?php include "footer.php" ?>

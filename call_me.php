@@ -1,4 +1,4 @@
-<div class="row">
+
       <div class="callme">
           <h4>Перезвоните мне:</h4>
           <form class="sendLead" action="/assets/newdis/php/submit.php">
@@ -8,4 +8,4 @@
               <input name="submit" type="submit" value="Заказать звонок"/>
           </form>
       </div>
-</div>
+
