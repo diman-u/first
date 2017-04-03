@@ -6,13 +6,17 @@ html {
   font-size: 1rem;
 }
 
-.photobox__content,
+.light,
 .person,
 .contentbox-doctors__head,
-.promo-grid__item-background {
+.promo-grid__item-background,
+.photobox__content-newformat,
+.greed-card,
+.promo-grid {
   font-family: 'Circe Light', sans-serif;
 }
 
+.bold,
 .photobox__head,
 .contentbox__head,
 .promo-grid-square__price,
@@ -24,12 +28,15 @@ html {
 
 .doctors-grid__status,
 .doctors-grid__skills,
-.photobox__content {
+.contentbox__promo-more-small,
+.contacts p {
   font-family: 'Circe Extra Light', sans-serif;
 }
 
 .photobox__long .photobox__head,
-.photobox__videohead {
+.photobox__videohead,
+.greed-card__item:after,
+.promo-grid__head {
   font-family: 'Circe', sans-serif;
 }
 
@@ -40,11 +47,6 @@ a {
 
 a:focus {
   text-decoration: none;
-}
-
-
-a:visited {
-  /*color: #0dbeec;*/
 }
 
 a:hover {
@@ -76,12 +78,25 @@ footer h4 {
   color: #fff;
 }
 
+.photobox a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.photobox a:hover {
+  text-decoration: none;
+}
+
+.photobox .photobox__button a {
+  text-decoration: none;
+}
+
 #content {
   margin-top: 2.6875rem;
 }
 
 .photobox {
-  position: relative;
+  position: relative !important;
   margin-bottom: 6.25rem;
 }
 
@@ -91,6 +106,10 @@ footer h4 {
 
 .photobox.photobox-not-margin {
   margin-bottom: 10px;
+}
+
+.photobox.mb-80 {
+  margin-bottom: 5rem;
 }
 
 .photobox:before {
@@ -140,6 +159,16 @@ footer h4 {
   opacity: 0.9;
 }
 
+.photobox .photobox__content-newformat {
+  font-size: 2.1875rem;
+  line-height: 2.3125rem;
+}
+
+.photobox .photobox__content-newformat .photobox__head {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
 .photobox .photobox__content-around {
   display: flex;
   flex-wrap: wrap;
@@ -180,7 +209,7 @@ footer h4 {
 }
 
 .photobox .photobox__button-check:after {
-  content: url(../img/card-more.png);
+  content: url(../img/arrow_down.svg);
   display: block;
   margin-top: 2.5rem;
   padding-bottom: 2.1875rem;
@@ -195,6 +224,16 @@ footer h4 {
 .contentbox-bg {
   background: url(../img/bulbul-floating.jpg) center top no-repeat;
   background-size: cover;
+}
+
+.contentbox-bg.sport {
+  background: url(../img/relaxdark-sport.jpg) center top no-repeat;
+  background-size: cover;
+}
+
+.contentbox-bg.sport .promo-grid {
+  padding-top: 10.3125rem;
+  padding-bottom: 5.625rem;
 }
 
 .contentbox-bg .contentbox-bg__head {
@@ -239,6 +278,10 @@ footer h4 {
   color: #6d6d6d;
 }
 
+.contentbox.contentbox_big-margin {
+  margin-bottom: 5rem;
+}
+
 .contentbox.contentbox-not-margin {
   margin-bottom: 0;
 }
@@ -246,7 +289,7 @@ footer h4 {
 .contentbox .contentbox__head {
   margin-bottom: 2.5rem;
   font-size: 3.125rem;
-  line-height: 2.5rem;
+  line-height: 3.125rem;
   color: #0dbeec;
 }
 
@@ -257,6 +300,10 @@ footer h4 {
   font-size: 2.1875rem;
   line-height: 2.3125rem;
   color: #c3c2c2;
+}
+
+.contentbox .contentbox__promo.mb-50 {
+  margin-bottom: 3.125rem;
 }
 
 .contentbox .contentbox__promo-double-mb {
@@ -272,9 +319,23 @@ footer h4 {
   line-height: 1.9375rem;
 }
 
+.contentbox .contentbox__promo-more-small {
+  font-size: 1.375rem;
+  line-height: 1.9375rem;
+  color: #535353;
+}
+
 .contentbox .contentbox__limit-with {
   width: 69%;
   margin: 0 auto;
+}
+
+.contentbox .contentbox__limit-with.mb {
+  margin-bottom: 2.5rem;
+}
+
+.contentbox .contentbox__limit-with.mb-50 {
+  margin-bottom: 3.125rem;
 }
 
 .contentbox .contentbox__bigtext {
@@ -292,7 +353,6 @@ footer h4 {
 
 .contentbox .contentbox__buttons .more {
   margin: 0 0.9375rem 1.875rem;
-  padding: 0.25rem 1.25rem;
 }
 
 .contentbox .contentbox__phones a {
@@ -303,11 +363,11 @@ footer h4 {
 
 .contentbox.contentbox-bg {
   margin-bottom: 0;
-  padding-bottom: 100px;
+  padding-bottom: 0;
 }
 
 .contentbox.contentbox__bluewaves {
-  margin-top: -50px;
+  margin-top: -1.25rem;
   margin-bottom: 5.625rem;
   position: relative;
   background: #0dbeec;
@@ -326,17 +386,56 @@ footer h4 {
 .contentbox.contentbox__bluewaves .contentbox__promo {
   width: 80%;
   margin-bottom: 3.125rem;
-  padding-top: 5.3125rem;
+  padding-top: 3.75rem;
   color: #fff;
 }
 
 .contentbox.contentbox__bluewaves .contentbox__buttons {
-  padding-bottom: 3.125rem;
+  padding-bottom: 1.875rem;
 }
 
 .contentbox.contentbox__bluewaves .contentbox__buttons a {
   color: #fff;
   border-color: #fff;
+}
+
+.contentbox.contentbox__bluewaves .contentbox__buttons a:hover {
+  border: 2px solid #0090B6;
+  text-decoration: none;
+  background-color: #0090B6;
+}
+
+.greed-card {
+  width: 95%;
+  margin: 0 auto 6.25rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  counter-reset: list 0;
+}
+
+.greed-card .greed-card__item {
+  position: relative;
+  width: calc(25% - 40px);
+  margin: 20px;
+  padding: 20px 10px 40px 20px;
+  border: 2px solid #0dbeec;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 20px;
+  color: #424242;
+}
+
+.greed-card .greed-card__item:after {
+  position: absolute;
+  bottom: -0.625rem;
+  right: 1.5625rem;
+  counter-increment: list;
+  content: "№ " counter(list);
+  font-size: 2.625rem;
+  line-height: 2.75rem;
+  color: #0dbeec;
 }
 
 .promo-grid {
@@ -378,6 +477,15 @@ footer h4 {
   color: #0dbeec;
 }
 
+.promo-grid .promo-grid__head-column {
+  font-size: 1.5625rem;
+  line-height: 2.3125rem;
+}
+
+.promo-grid .promo-grid__head-half-margin {
+  margin-bottom: 1.25rem;
+}
+
 .promo-grid .promo-grid__title {
   margin-bottom: 0;
   font-size: 2.1875rem;
@@ -391,7 +499,7 @@ footer h4 {
 
 .promo-grid.promo-grid__compact .promo-grid__item img,
 .promo-grid.promo-grid__compact .promo-grid__head {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.625rem;
 }
 
 .timeline {
@@ -750,6 +858,11 @@ footer h4 {
   cursor: default;
 }
 
+.geomap {
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
 .breadcrumbs {
   margin-top: -1.25rem;
   margin-bottom: 3.4375rem;
@@ -816,11 +929,47 @@ footer h4 {
   cursor: default;
 }
 
+.wide-card.nobg.contacts {
+  margin-bottom: 4.375rem;
+}
+
+.wide-card.nobg.contacts .contacts__head {
+  margin-top: 1.875rem;
+  margin-bottom: 1.25rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  color: #acacac;
+}
+
+.wide-card.nobg.contacts p {
+  width: 85%;
+  font-size: 18px;
+  line-height: 24px;
+  color: #535353;
+}
+
+.wide-card.nobg.contacts img {
+  width: 120px;
+  height: 120px;
+}
+
+.wide-card.nobg.contacts .contact-info a {
+  color: #666465;
+}
+
 .mb {
   margin-bottom: 2.5rem;
 }
 
+.topjump {
+  margin-top: -2.5rem;
+}
+
 @media screen and (max-width: 1200px) {
+  .greed-card .greed-card__item {
+    width: calc(33.333333333333336% - 40px);
+  }
+
   .timeline {
     padding-left: 50px;
     padding-right: 50px;
@@ -837,6 +986,10 @@ footer h4 {
   }
 
   .sort-doctors {
+    width: 100%;
+  }
+
+  .wide-card.nobg.contacts p {
     width: 100%;
   }
 }
@@ -868,6 +1021,18 @@ footer h4 {
 
   .photobox .photobox__scroll {
     display: none;
+  }
+
+  .contentbox-bg.sport .promo-grid {
+    padding-top: 4.375rem;
+  }
+
+  .contentbox-bg.sport .promo-grid {
+    padding-bottom: 0;
+  }
+
+  .greed-card .greed-card__item {
+    width: calc(50% - 40px);
   }
 
   .promo-grid .promo-grid__item {
@@ -911,6 +1076,10 @@ footer h4 {
   .sort-doctors {
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .wide-card.nobg.contacts p {
+    width: 80%;
   }
 }
 
@@ -962,6 +1131,10 @@ footer h4 {
 
   .contentbox .contentbox__bigtext {
     line-height: 25px;
+  }
+
+  .greed-card .greed-card__item {
+    width: calc(80% - 40px);
   }
 
   .promo-grid .promo-grid__item {
@@ -1092,6 +1265,10 @@ footer h4 {
 @media screen and (max-width: 400px) {
   html {
     font-size: 0.5625rem;
+  }
+
+  .greed-card .greed-card__item {
+    width: calc(90% - 40px);
   }
 
   .promo-grid .promo-grid__item {

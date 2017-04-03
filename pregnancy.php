@@ -3,7 +3,7 @@
 
 <main  id="content">
 
-    <section class="photobox">
+    <div class="photobox">
 
         <img class="photobox__img" src="assets/newdis/img/program-ber.jpg">
         <div class="photobox__wrap">
@@ -18,33 +18,33 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox">
+    <div class="contentbox">
 
         <h4 class="contentbox__head">Время счастья</h4>
         <div class="contentbox__promo">Беременность - это радостное событие, которое неразрывно связано с большой ответственностью. Будущей маме требуется особое внимание и поддержка. Ей приходится серьезно заботиться о своем здоровье и эмоциональном состоянии.</div>
         <div class="contentbox__limit-with">Для оптимальной подготовки к родам нами разработана целая программа, которая поможет расслабиться, справиться с возникающими при беременности сложностями и подарит вам состояние счастья и абсолютной гармонии, которое, безусловно, передастся и вашему малышу. Мы заботимся о том, чтобы стресс не был спутником Вашей беременности и используем только проверенные, эффективные и безопасные процедуры.</div>
 
-    </section>
+    </div>
 
 
-    <section class="photobox waves">
+    <div class="photobox waves">
 
         <img class="photobox__img" src="assets/newdis/img/floating-ber.jpg">
         <div class="photobox__wrap">
             <div class="photobox__content">
                 <h4 class="photobox__head">Флоатинг для беременных</h4>
-                <p>Внедрение флоат-терапии в акушерскую практику сложно переоценить. Масса достоинств этой расслабляющей процедуры и отсутствие противопоказаний, делают ее незаменимым помощником для будущих мам.Составом раствора для принятия ванн является 
+                <p>Внедрение флоат-терапии в акушерскую практику сложно переоценить. Масса достоинств этой расслабляющей процедуры и отсутствие противопоказаний, делают ее незаменимым помощником для будущих мам.Составом раствора для принятия ванн является
                 английская соль (сульфат магния).</p>
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox">
+    <div class="contentbox">
 
         <div class="contentbox__promo">В некоторых странах Европы и США врачи акушеры-гинекологи уже включают флоатинг в комплекс физиотерапевтических процедур для беременных.</div>
 
@@ -90,32 +90,32 @@
             <a class="more" href="#">Что такое флоатинг?</a>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="photobox">
+    <div class="photobox">
 
         <img class="photobox__img" src="assets/newdis/img/massag-ber.jpg">
         <div class="photobox__wrap">
             <div class="photobox__content">
                 <h4 class="photobox__head">Специальный массаж для беременных</h4>
-                <p>Все беременные женщины мечтают о массаже. 
-                    Но вопрос безопасности, естественно, стоит для них на первом месте. 
-                    В нашей студии, массаж беременным женщинам проводят специалисты 
-                    с медицинским образованием и специализацией 
+                <p>Все беременные женщины мечтают о массаже.
+                    Но вопрос безопасности, естественно, стоит для них на первом месте.
+                    В нашей студии, массаж беременным женщинам проводят специалисты
+                    с медицинским образованием и специализацией
                     на акушерстве и гинекологии.</p>
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox">
+    <div class="contentbox">
 
         <h4 class="contentbox__head">Как проходит массаж?</h4>
         <div class="contentbox__promo contentbox__promo-small">Массаж беременным в нашей студии проводится  с максимальным комфортом для будущих мам. Сначала делается массаж головы, шейно-воротниковый зоны и рук.  Первый этап проводится сидя, с опорой спины на мягкую кушетку. Затем женщина ложится на кушетку сначала на один бок, потом на другой. Во время всей процедуры подкладываются мягкие подушки, для обеспечения удобного положения.</div>
         <h4 class="contentbox__head">Польза массажа во время беременности</h4>
-        
+
         <div class="timeline">
             <ul class="timeline__list">
                 <li class="timeline__item">Снимает болевые ощущения в спине, бедрах, ногах и ступнях</li>
@@ -124,9 +124,9 @@
                 <li class="timeline__item">Уменьшается количество случаев судорог икроножных мышц</li>
                 <li class="timeline__item">Уменьшаются головные боли</li>
                 <li class="timeline__item">Мягко выравнивается гормональный фон</li>
-                <li class="timeline__item">Улучшается лимфоток и кровообращение, что способствует 
+                <li class="timeline__item">Улучшается лимфоток и кровообращение, что способствует
                     лучшему питанию плода кислородом и питательными веществами</li>
-                <li class="timeline__item">Происходит выработка эндорфинов, что в свою очередь, 
+                <li class="timeline__item">Происходит выработка эндорфинов, что в свою очередь,
                     улучшает психоэмоциональное состояние</li>
             </ul>
         </div>
@@ -135,26 +135,26 @@
             <a class="more" href="#">Подробнее о специальном массаже для беременных</a>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="photobox photobox-half-margin">
+    <div class="photobox photobox-half-margin">
 
         <img class="photobox__img" src="assets/newdis/img/osteo-ber.jpg">
         <div class="photobox__wrap">
             <div class="photobox__content">
                 <h4 class="photobox__head">Остеопатия для беременных</h4>
-                <p>Беременной женщине особенно важно, чтобы все системы ее организма 
-                    работали слажено и четко. Беременность - это прекрасный повод обратиться 
+                <p>Беременной женщине особенно важно, чтобы все системы ее организма
+                    работали слажено и четко. Беременность - это прекрасный повод обратиться
                     за помощью к остеопату.
                 </p>
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox">
+    <div class="contentbox">
 
         <h4 class="contentbox__head">Безопасная коррекция</h4>
         <div class="contentbox__promo contentbox__promo-small">Остеопаты считают, что нормальный здоровый орган человеческого тела обладает подвижностью, которая обеспечивает нормальное кровообращение в организме. Если орган теряет эту подвижность (в основном из-за различных травм), то нарушается внутренний баланс организма, нормальное кровообращение, что приводит к нарушениям работы органов. А так как все органы взаимосвязаны, то единый ритм работы организма нарушается.
@@ -177,10 +177,10 @@
             <a class="more" href="#">Подробнее методе и специалистах</a>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="photobox">
+    <div class="photobox">
 
         <img class="photobox__img" src="assets/newdis/img/face_and_body-ber.jpg">
         <div class="photobox__wrap">
@@ -190,11 +190,11 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox contentbox-not-margin">
-        
+    <div class="contentbox contentbox-not-margin">
+
         <h4 class="contentbox__head">Беременность - непростое время для кожи</h4>
         <div class="contentbox__promo  contentbox__promo-small">Под действием гормональных изменений она становится чувствительной, теряет естественную влагу. Кроме того, "беременная" кожа очень уязвима для внешних воздействий, легко краснеет, появляются разнообразные высыпания. Бывает, что меняется естественный цвет лица, тогда говорят о так называемой «маске беременных»: светло-коричневых пигментных пятнах, которые появляются на лбу или щеках.</div>
 
@@ -205,7 +205,7 @@
                 <p class="promo-grid__text-before-button">Специальный уход за кожей лица беременных женщин - программа основана на мягких, гипо-алергенных средствах натуральной косметической линии PHYTOMER.</p>
                 <div class="contentbox__buttons">
                     <a class="more" href="#">Подробнее</a>
-                </div>                    
+                </div>
             </div>
             <div class="promo-grid__item">
                 <img src="assets/newdis/img/promo-8.png">
@@ -213,7 +213,7 @@
                 <p class="promo-grid__text-before-button">Реоформирующий массаж лица поможет избавиться от отеков, улучшить цвет лица, снимает мышечные зажимы и нервно-психическое напряжение. Благотворное влияние на психику отмечают все, кто попробовал эту процедуру.</p>
                 <div class="contentbox__buttons">
                     <a class="more" href="#">Подробнее</a>
-                </div>     
+                </div>
             </div>
             <div class="promo-grid__item">
                 <img src="assets/newdis/img/promo-9.png">
@@ -221,29 +221,29 @@
                 <p class="promo-grid__text-before-button">Уход за телом для беременных женщин  является идеальной программой для профилактики появления растяжек в период беременности, восстанавливает баланс минералов, глубоко увлажняет кожу. Программа включает в себя сухой пилинг морскими губками и гелевое обертывание комфортной температуры, с легким приятным ароматом.</p>
                 <div class="contentbox__buttons">
                     <a class="more" href="#">Подробнее</a>
-                </div>     
+                </div>
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="photobox">
+    <div class="photobox">
 
         <img class="photobox__img" src="assets/newdis/img/fitoterapia-ber.jpg">
         <div class="photobox__wrap">
             <div class="photobox__content photobox__content-middle">
                 <h4 class="photobox__head">Фитотерапия и здоровое питание</h4>
                 <p>Традиционные фармацевтические средства в этот период не рекомендуются. Травяные сборы – метод, проверенный многовековым опытом и подтвержденный официальной медициной. Мы выпишем индивидуальный курс трав, который поможет будущим мамам справиться с возникающими при беременности проблемами.</p>
-                <div class="photobox__button"><a class="more" href="">Подробнее методе и специалистах</a>
+                <div class="photobox__button"><a class="more" href="">Подробнее методе и специалистах</a></div>
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox contentbox-not-margin">
-        
+    <div class="contentbox contentbox-not-margin">
+
         <div class="contentbox__main-doctor">
             <h4 class="contentbox__head">Главный врач</h4>
             <div class="contentbox__promo">Вы можете получить консультацию Главного врача нашего центра перед прохождением программ</div>
@@ -256,10 +256,10 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox">
+    <div class="contentbox">
 
         <div class="callme">
             <h4>Закажите звонок:</h4>
@@ -270,10 +270,10 @@
             </form>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox contentbox-not-margin">
+    <div class="contentbox contentbox-not-margin">
 
         <h4 class="contentbox__head">Комплексные программы для беременных</h4>
 
@@ -319,32 +319,22 @@
             <a class="more more-invert" href="#">Все услуги для беременных</a>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="banner">
+    <div class="banner">
         <img src="assets/newdis/img/banner-ber.jpg">
-    </section>
+    </div>
 
 
-    <section class="contentbox">
 
-        <div class="callme">
-            <h4>Перезвоните мне:</h4>
-            <form>
-                <input name="name" type="text" placeholder="Ваше имя"/>
-                <input name="phone" type="text" placeholder="Телефон"/>
-                <input name="submit" type="submit" value="Заказать звонок"/>
-            </form>
-        </div>
+    <?php include "call_me.php" ?>
 
-    </section>
-
-    <section class="contentbox contentbox-not-margin">
+    <div class="contentbox contentbox-not-margin">
 
         <h4 class="contentbox__phones"><a href="tel:84991105210">+7 (499) 110-52-10</a></h4>
 
-    </section>
+    </div>
 
 </main>
 

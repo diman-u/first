@@ -3,7 +3,7 @@
 @import url(css-fonts/circe.css);
 /********card styles*******/
 
-html {font-size: 16px;}
+/*html {font-size: 16px;} */
 img {
     max-width: 100%;
 }
@@ -49,8 +49,8 @@ body {
 .cards-holder {
     column-count: 2;
     -moz-column-count: 2;
-    column-gap: 50px;
-    -moz-column-gap: 50px;
+    column-gap: 55px;
+    -moz-column-gap: 55px;
     /*width: 1178px;*/
     width:100%;
     margin: 0 auto;
@@ -115,6 +115,12 @@ body {
     width: 100%;
     color: #aeadae;
     position:relative;
+    display: table;
+    table-layout: fixed;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+
 }
 .card .title-nobg {
     font-size: 35px;
@@ -136,9 +142,7 @@ body {
     position: relative;
     overflow: hidden;
 }
-.imgheader img {
-    width: 100%;
-}
+
 .card.bg .imgheader:after {
     position: absolute;
     top: 0;
@@ -153,7 +157,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate( -50%, -60%);
+    transform: translate3d( -50%, -60%, 0);
     text-align: center;
     font-size: 49px;
     line-height: 41px;
@@ -240,7 +244,7 @@ body {
     color:#1B75BB;
 }
 
- .more:hover, .more:focus,.callme input[type="submit"]:hover,.callme input[type="submit"]:focus {
+ .more:hover, .menu-items .more:hover, .more:focus,.callme input[type="submit"]:hover,.callme input[type="submit"]:focus {
      background-color:#00C0F3;
      color:white;
      text-decoration:none;
@@ -304,16 +308,18 @@ body {
 }
 
 .column-break {
-    -webkit-column-break-before: always;
-    break-before: column;
+    /*-webkit-column-break-before: always;*/
+    /*break-before: column;*/
 }
 
 .imgheader {
     position: relative;
 }
 .imgheader img {
-    width: 100%;
+    width: 101%;
+    max-width: none;
 }
+
 .wide-card.bg .imgheader:after {
     position: absolute;
     bottom: 0;
@@ -559,11 +565,11 @@ header {
 .right_mobile{
 	display: none;
 }
-/*.map {
+.map {
     background: url(../img/icon_header_map.svg) 4px center no-repeat;
-}*/
+}
 .metro {
-    background: url(../img/icon_header_metro.svg) left center no-repeat;
+    background: url(../img/icon_header_metro.svg) 2px center no-repeat;
 }
 .right .phone {
     background: url(../img/icon_header_phone.svg) left center no-repeat;
@@ -577,7 +583,7 @@ header {
 
 }
 .buy {
-    background: url(../img/icon_header_card.svg) left center no-repeat;
+    background: url(../img/icon_header_card.svg) 1px center no-repeat;
 }
 .facebook {
     width:27px;
@@ -813,7 +819,10 @@ li.menu-items li:last-child {
 
     #header-left{   width: 220px;   }
 
-
+    .cards-holder{
+        column-gap: 35px;
+        -moz-column-gap: 35px;
+    }
 
     .right .check{
         border-radius: 10px;
@@ -1497,7 +1506,7 @@ a, input, button, img {
         .summa{
             margin-right: 15px;
         }
-        .btn-zapis{ 1max-width: 220px;}
+        /*.btn-zapis{ 1max-width: 220px;}*/
         .btn-all{   max-width: 260px;}
         .more{  font-size: 23px;     }
     }

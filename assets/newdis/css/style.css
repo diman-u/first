@@ -96,7 +96,7 @@ footer h4 {
 }
 
 .photobox {
-  position: relative;
+  position: relative !important;
   margin-bottom: 6.25rem;
 }
 
