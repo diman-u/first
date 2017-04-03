@@ -246,23 +246,11 @@
 
     <section class="contentbox">
 
-        <div class="callme">
-            <h4>Перезвоните мне:</h4>
-            <form>
-                <input name="name" type="text" placeholder="Ваше имя"/>
-                <input name="phone" type="text" placeholder="Телефон"/>
-                <input name="submit" type="submit" value="Заказать звонок"/>
-            </form>
-        </div>
+        <?php include "call_me.php" ?>
 
     </section>
 
-    <section class="contentbox contentbox-not-margin">
-
-        <h4 class="contentbox__phones"><a href="tel:84991105210">+7 (499) 110-52-10</a></h4>
-
-    </section>
-
+    <?php include "phones.php" ?>
 
 </main>
 

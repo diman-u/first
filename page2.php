@@ -145,10 +145,10 @@
             </div>
           </div>
         </div>
+        
         <!-- Телефон -->
-        <div class="row telephone">
-          <p class="text-center">+7 (499) 110-52-10</p>
-        </div>
+        <?php include "phones.php" ?>
+      
       </main>
 
 <?php include "footer.php" ?>
