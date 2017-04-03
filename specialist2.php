@@ -142,15 +142,9 @@
             </div>
           </div>
         </div>
-        <div class="section">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <p class="telephone"> +7 (499) 110-52-10 </p>
-              </div>
-            </div>
-          </div>
-        </div>
+
+        <?php include "phones.php" ?>
+        
       </main>     
 
 <?php include "footer.php" ?>
