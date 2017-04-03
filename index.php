@@ -162,7 +162,6 @@
             </div>
         </div>
 
-        <?php include "map.php" ?>
 
         <!-- <div class="col-xs-12 col-md-12 wide-card nobg visible-xs">
             <span id="map"></span>
@@ -174,6 +173,8 @@
 
     </div>
 
+    <?php include "map.php" ?>
+        
     <div class="row">
         <div class="col-xs-12 col-md-4 wide-card nobg contacts">
             <img src="assets/newdis/img/icon_1_phone.svg" style="width:100px;" alt="Контакт"/>

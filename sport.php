@@ -306,9 +306,10 @@
             </div>
         </div>
 
-        <?php include "map.php" ?>
 
     </div>
+    
+    <?php include "map.php" ?>
 
     <div class="row">
         <div class="col-xs-12 col-md-4 wide-card nobg contacts">
