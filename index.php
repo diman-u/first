@@ -4,7 +4,7 @@
 <main id="content">
     <div class="cards-holder">
 
-        <div class="card bg relax leftanimate">
+        <div class="card bg relax fadeanimate">
             <div class="imgheader">
                 <img src="assets/newdis/img/photo_relax.jpg" alt="">
                 <h4>Релаксация<br>и&nbsp;восстановление</h4>
@@ -19,14 +19,14 @@
             </div>
         </div>
 
-        <div class="card nutrition leftanimate textcard">
+        <div class="card nutrition fadeanimate">
             <h2 class="title-nobg"><a href="#">Оздоровление питанием</a></h2>
             <p>c помощью уникального сочетания опыта тибетской медицины,
                 фитотерапии, ДНК-тестирования, детокса.</p>
             <p class="left-but"><a class="more" href="[[~35]]">Подробнее</a></p>
         </div>
 
-        <div class="card bg beauty leftanimate">
+        <div class="card bg beauty fadeanimate">
             <div class="imgheader">
                 <img src="assets/newdis/img/photo_beaty.jpg" alt="">
                 <h4>Натуральная красота и&nbsp;омоложение</h4>
@@ -39,7 +39,7 @@
             </div>
         </div>
 
-        <div class="card recovery_text leftanimate textcard">
+        <div class="card recovery_text fadeanimate">
             <h2 class="title-nobg"><a href="[[~37]]">Восстановление спортсменов...</a></h2>
             <p>Избавиться от хронической усталости, снять тревожность и устранить боль
                 поможет индивидуальный подход с
@@ -51,7 +51,7 @@
 
         <img src="assets/newdis/img/scrolling.svg" alt="" class="scroll">
 
-        <div class="card floating column-break rightanimate textcard">
+        <div class="card floating column-break fadeanimate">
             <p><span class="title-nobg"><a href="#">Флоатинг</a></span> - самый
                 эффективный и быстрый метод глубочайшего расслабления и восстановления
                 за
@@ -60,7 +60,7 @@
             <p class="left-but"><a class="more" href="[[~23]]">Подробнее о флоатинге</a></p>
         </div>
 
-        <div class="card bg pregnancy rightanimate">
+        <div class="card bg pregnancy fadeanimate">
             <div class="imgheader">
                 <img src="assets/newdis/img/photo_pregnancy.jpg" alt="">
                 <h4>Здоровая беременность</h4>
@@ -76,7 +76,7 @@
             </div>
         </div>
 
-        <div class="card wellness rightanimate textcard">
+        <div class="card wellness fadeanimate">
             <p><span class="title-nobg"><a href="#">Лайф и Wellness
                         коучинг.</a></span>
                 Текст
@@ -85,7 +85,7 @@
             <p class="left-but"><a class="more" href="#">Подробнее</a></p>
         </div>
 
-        <div class="card bg recovery rightanimate">
+        <div class="card bg recovery fadeanimate">
             <div class="imgheader">
                 <img src="assets/newdis/img/photo_recovery.jpg" alt="">
                 <h4>Восстановительная медицина</h4>
@@ -100,13 +100,13 @@
 
     </div>
 
-    <div class="row">
+    <div class="row fadeanimate">
         
         <?php include "call_me.php" ?>
 
     </div>
 
-    <div class="photobox photobox-not-margin">
+    <div class="photobox photobox-not-margin fadeanimate">
 
         <img class="photobox__img" src="assets/newdis/img/photo_about.jpg">
         <div class="photobox__wrap">
@@ -119,7 +119,7 @@
 
     </div>
 
-    <div class="row">
+    <div class="row fadeanimate">
         <div class="col-xs-12 col-md-12 wide-card nobg wide-card__promo">
             <h4>Современное пространство целостного оздоровления в самом центре
                 Москвы</h4>
@@ -134,7 +134,7 @@
             <a href="[[~18]]" class="more of_study">Подробнее о студии</a>
         </div>
     </div>
-    <div class="row">
+    <div class="row fadeanimate">
 
         <div class="col-xs-12 col-md-12 wide-card bg about">
             
@@ -159,11 +159,18 @@
 
     </div>
     
-    <?php include "map.php" ?>
+    <div class="fadeanimate">
+    	<?php include "map.php" ?>
+    </div>
 
-    <?php include "contacts.php" ?>
+    <div class="fadeanimate">
+	    <?php include "contacts.php" ?>
+    </div>
 
-    <?php include "phones.php" ?>
+    <div class="fadeanimate">
+	    <?php include "phones.php" ?>
+    </div>
+
 
 
 </main>
