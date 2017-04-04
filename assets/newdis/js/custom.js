@@ -101,6 +101,11 @@ http://www.web2feel.com/tutorial-for-animated-scroll-loading-effects-with-animat
         offset: 100
        });
 
+    $('.fadeanimate_simple').addClass('novisible').viewportChecker({
+        classToAdd: 'visible animated fadeIn',
+        offset: 100
+       });
+
 
 
 
