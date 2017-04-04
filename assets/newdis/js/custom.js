@@ -7,8 +7,15 @@ $(document).ready(function() {
             if ( $(this).hasClass('active')) {
                 $(this).removeClass('active');
                 $('main, footer, #sochide').show();
+
+                // Fix bug animation after closing menu
+                $('.fadeanimate').removeClass("novisible visible animated fadeInUp");
+                mainPageAnimate();
+
                 setTimeout(function(){
                     $('.open-menu').slideToggle('300', function() { $("a.menu").removeClass("animating"); });
+
+
                 }, 0);
             } else{
                 $(this).addClass('active');
@@ -95,15 +102,23 @@ $(document).ready(function() {
 MAIN blocks animate
 http://www.web2feel.com/tutorial-for-animated-scroll-loading-effects-with-animate-css-and-jquery 
 */
+    mainPageAnimate();
 
-    $('.fadeanimate').addClass('novisible').viewportChecker({
-        classToAdd: 'visible animated fadeInUp',
-        offset: 100
-       });
+    function mainPageAnimate() {
 
+        $('.fadeanimate').addClass('novisible')
+                .viewportChecker({
+                    classToAdd: 'visible animated fadeInUp',
+                    offset: 100
+                   });
 
+        $('.fadeanimate_simple').addClass('novisible')
+            .viewportChecker({
+                classToAdd: 'visible animated fadeIn',
+                offset: 100
+               });
 
-
+    }
 
 
 });

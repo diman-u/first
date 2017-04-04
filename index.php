@@ -4,7 +4,7 @@
 <main id="content">
     <div class="cards-holder">
 
-        <div class="card bg relax fadeanimate">
+        <div class="card bg relax fadeanimate_simple">
             <div class="imgheader">
                 <img src="assets/newdis/img/photo_relax.jpg" alt="">
                 <h4>Релаксация<br>и&nbsp;восстановление</h4>
@@ -51,7 +51,7 @@
 
         <img src="assets/newdis/img/scrolling.svg" alt="" class="scroll">
 
-        <div class="card floating column-break fadeanimate">
+        <div class="card floating column-break fadeanimate_simple">
             <p><span class="title-nobg"><a href="#">Флоатинг</a></span> - самый
                 эффективный и быстрый метод глубочайшего расслабления и восстановления
                 за
@@ -60,7 +60,7 @@
             <p class="left-but"><a class="more" href="[[~23]]">Подробнее о флоатинге</a></p>
         </div>
 
-        <div class="card bg pregnancy fadeanimate">
+        <div class="card bg pregnancy fadeanimate_simple">
             <div class="imgheader">
                 <img src="assets/newdis/img/photo_pregnancy.jpg" alt="">
                 <h4>Здоровая беременность</h4>
@@ -165,9 +165,7 @@
 
     <div class="fadeanimate">
 	    <?php include "contacts.php" ?>
-    </div>
 
-    <div class="fadeanimate">
 	    <?php include "phones.php" ?>
     </div>
 
