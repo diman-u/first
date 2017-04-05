@@ -4,7 +4,7 @@
 <main  id="content">
 
 
-    <section class="photobox">
+    <div class="photobox">
 
         <img class="photobox__img" src="assets/newdis/img/relax-floating.jpg">
         <div class="photobox__wrap">
@@ -21,18 +21,18 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox">
+    <div class="contentbox">
 
         <h4 class="contentbox__head">Что такое флоатинг?</h4>
         <div class="contentbox__promo">Самый эффективный и быстрый метод глубочайшего расслабления и восстановления за 60 минут, недостижимый другими способами. Позволяет быстро и своевременно останавливать стресс и беспокойство человека. </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox contentbox-bg waves-top">
+    <div class="contentbox contentbox-bg waves-top">
 
         <h4 class="contentbox-bg__head">Флоатинг – релаксация и восстановление в невесомости</h4>
 
@@ -57,19 +57,19 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox contentbox__bluewaves">
+    <div class="contentbox contentbox__bluewaves">
         <div class="contentbox__promo">1 час флоатинга дает больший успокаивающий и тонизирующий эффект, чем 6-8 часов полноценного сна. Эффект после процедуры сравним с отдыхом на море. </div>
         <div class="contentbox__buttons">
             <a class="more" href="#">Записаться</a>
             <a class="more" href="#">Купить сертификат</a>
         </div>
-    </section>
+    </div>
 
 
-    <section class="contentbox">
+    <div class="contentbox">
         
         <h4 class="contentbox__head">Как это работает?</h4>
         <div class="contentbox__promo contentbox__promo-double-mb">Единственная в России и Восточной Европе установка флоатинга с двумя флоат-комнатами, а не капсулами.</div>
@@ -103,10 +103,10 @@
 
         <img src="assets/newdis/img/mugik-na-volnah.jpg" alt="" class="center">
     
-    </section>
+    </div>
 
 
-    <section class="photobox">
+    <div class="photobox">
 
         <img class="photobox__img" src="assets/newdis/img/netstress-floating.jpg">
         <div class="photobox__wrap">
@@ -116,10 +116,10 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox">
+    <div class="contentbox">
 
         <h4 class="contentbox__head">Cвобода от стресса</h4>
         <div class="contentbox__promo">Флоатинг + массаж в нашем центре восстановит работоспособность всегоа за 1 час. </div>
@@ -140,23 +140,17 @@
             <a class="more" href="#">Выбрать программу</a>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="photobox">
+    <div class="col-xs-12 col-md-12 wide-card bg about">
+            
+            <?php include "video.php" ?>
 
-        <img class="photobox__img" src="assets/newdis/img/video-floating.jpg">
-        <div class="photobox__wrap">
-            <div class="photobox__content">
-                <p class="photobox__videohead">Видео-ролик о программе «Полное погружение»</p>
-                <a href="#"><img src="assets/newdis/img/play.png" alt=""></a>
-            </div>
-        </div>
-
-    </section>
+    </div>
 
 
-    <section class="contentbox contentbox-not-margin">
+    <div class="contentbox contentbox-not-margin">
 
         <h4 class="contentbox__head">Программы релаксации и восстановления</h4>
 
@@ -198,10 +192,10 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox contentbox-not-margin">
+    <div class="contentbox contentbox-not-margin">
 
         <div class="promo-grid">
             <div class="promo-grid__item">
@@ -241,14 +235,14 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox">
+    <div class="contentbox">
 
         <?php include "call_me.php" ?>
 
-    </section>
+    </div>
 
     <?php include "phones.php" ?>
 

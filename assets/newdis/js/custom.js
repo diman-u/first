@@ -1,6 +1,26 @@
 $(document).ready(function() {
-    $("a.menu").on('click', function () {
+
+    if(window.location.hash.su == "#menu") {
+        $('a.menu').trigger('click');
+    }
+
+    var onBack = function (e)
+    {
+        // history.pushState(null, document.title, location.href);
+        // e.stopPropagation(); //stop event
+        // history.popState();
+        $('a.menu, .menu-burger').trigger('back');
+    }
+
+    var menuState = { state: "menu" };
+
+    // history.replaceState({ state: "site" }, document.title, location.href);
+    // window.addEventListener('popstate', onBack, false);
+
+    $("a.menu, .menu-burger").on('click back', function (e) {
         if($(this).hasClass("animating")) return;
+
+        // console.log(e);
 
         $(this).addClass("animating");
 
@@ -10,19 +30,29 @@ $(document).ready(function() {
 
                 // Fix bug animation after closing menu
                 $('.fadeanimate').removeClass("novisible visible animated fadeInUp");
-                mainPageAnimate();
 
                 setTimeout(function(){
-                    $('.open-menu').slideToggle('300', function() { $("a.menu").removeClass("animating"); });
-
+                    $('.open-menu').slideToggle('300', function() { $("a.menu, .menu-burger").removeClass("animating"); });
 
                 }, 0);
+                // window.removeEventListener('popstate', onBack, false);
+                // if(e.type == "click") {
+                //   window.history.go(-1);
+                //   console.log("go -1");
+                // }
+
             } else{
                 $(this).addClass('active');
 
                 $('.open-menu').slideToggle('300', function() {
                     $('main, footer, #sochide').hide();
-                    $("a.menu").removeClass("animating");
+
+                    // history.replaceState(null, document.title, './#menu');
+
+                    //good?
+                    // history.pushState(menuState, document.title,  './#menu'); //location.href);
+
+                    $("a.menu, .menu-burger").removeClass("animating");
                 });
                 //setTimeout(function(){
                 //        $('main').css('display', 'none');
@@ -31,7 +61,9 @@ $(document).ready(function() {
                 //}, 500);
             }
 
-        
+            // Fix bug animation after closing menu
+            mainPageAnimate();
+
     });
 
     $(".menu-items.wells>a").on("click", function () {
@@ -41,14 +73,14 @@ $(document).ready(function() {
         console.log('y');
     });
 
-    $(window).on('resize load', function() {
-        if ($(window).width() <= 992) {
-            $(".menu-items.wells>a").not('.clicked').removeClass('active');
-        }
-        else {
-            $(".menu-items.wells>a").not('.clicked').addClass('active');
-        }
-    });
+    // $(window).on('resize load', function() {
+    //     if ($(window).width() <= 992) {
+    //         $(".menu-items.wells>a").not('.clicked').removeClass('active');
+    //     }
+    //     else {
+    //         $(".menu-items.wells>a").not('.clicked').addClass('active');
+    //     }
+    // });
 
     $(window).on('scroll', function() {
         if ($(window).width() >= 767) {
@@ -75,14 +107,14 @@ $(document).ready(function() {
         }
     });
 
-/*    
+/*
     $(".right_mobile").on("click", function () {
         if ( $('.right').css('display')=='none') {
                 $('.right').css('display', 'block');
-                $('.right').addClass('mobile');                
-            
+                $('.right').addClass('mobile');
+
         } else{
-                $('.right').css('display', 'none');                
+                $('.right').css('display', 'none');
         }
     });
     */
@@ -100,9 +132,14 @@ $(document).ready(function() {
 
 /*
 MAIN blocks animate
-http://www.web2feel.com/tutorial-for-animated-scroll-loading-effects-with-animate-css-and-jquery 
+http://www.web2feel.com/tutorial-for-animated-scroll-loading-effects-with-animate-css-and-jquery
 */
-    mainPageAnimate();
+
+    if( window.scrollY < 100 )
+        mainPageAnimate();
+    else
+        return;
+
 
     function mainPageAnimate() {
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=0.6, maximum-scale=0.6"/>
     <meta name="google-site-verification"
           content="VW4JY2AXInO_OlEkxFBtJd96CjxynCe7z2uuLxuStJ8"/>
     <base href="[[++site_url]]"/>
@@ -28,7 +28,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    
+
     <link rel="stylesheet" href="assets/newdis/css/custom.css">
     <link rel="stylesheet" href="assets/newdis/css/style.css">
     <link rel="stylesheet" href="assets/newdis/css/animate.css">

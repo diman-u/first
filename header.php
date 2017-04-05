@@ -3,9 +3,9 @@
     <header>
         <div class="header-holder">
             <nav class="left" id="header-left">
-                <a class="menu"></a>
-                <a class="facebook" href="https://www.facebook.com/floatstudiomoscow?fref=ts" id="facebook"></a>
-                <a class="instagram" href="https://www.instagram.com/floatstudio_msk/" id="instagram"></a>
+                <div class="menu-burger btn12"><div class="icon"></div></div>
+                <a class="facebook" href="https://www.facebook.com/floatstudiomoscow?fref=ts" id="facebook" target="_blank"></a>
+                <a class="instagram" href="https://www.instagram.com/floatstudio_msk/" id="instagram" target="_blank"> </a>
                 <a class="gift" href="http://present.floatstudio.ru/" id="gift">Подарочные сертификаты</a>
             </nav>
             <div class="logo"><a href="/"><img src="assets/newdis/img/logo_main.svg"/></a></div>
@@ -86,7 +86,7 @@
                             </div>
                         </div>
                         <div class="disclaimer_text">
-                            © 2016 Студия флоатинга и SPA «Флоат Студия». Все права
+                            © 2017 Студия флоатинга и SPA «Флоат Студия». Все права
                             защищены законом об авторском праве. Никакая часть содержимого
                             сайта не может быть использована, репродуцирована, передана
                             любым электронным, копировальным или другим способом без
@@ -97,8 +97,8 @@
                 </div>
 
                 <div class="soc-bottom soc-bottom-left">
-                      <a class="facebook" href="https://www.facebook.com/floatstudiomoscow?fref=ts"></a>
-                      <a class="instagram" href="https://www.instagram.com/floatstudio_msk/"></a>
+                      <a class="facebook" href="https://www.facebook.com/floatstudiomoscow?fref=ts" target="_blank"></a>
+                      <a class="instagram" href="https://www.instagram.com/floatstudio_msk/" target="_blank"></a>
                 </div>
 
                 <div class="about-links">

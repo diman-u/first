@@ -4,7 +4,7 @@
     <main  id="content">
     
 
-        <section class="contentbox-doctors">
+        <div class="contentbox-doctors">
 
             <h1 class="contentbox-doctors__main-head">Специалисты</h1>
 
@@ -213,7 +213,7 @@
                 </div>
             </div>
 
-        </section>
+        </div>
 
         <?php include "phones.php" ?>
         

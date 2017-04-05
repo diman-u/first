@@ -4,9 +4,15 @@
 
             <div class="flex-container">-->
     <div class="block-1 blocks">
-        <div class="disclaimer_text">
-            © 2016 Студия флоатинга и SPA «Флоат Студия».
-        </div>
+
+        <a href="/">
+            <img src="assets/newdis/img/logo_footer.svg" />
+        </a>
+            <div class="disclaimer_text">
+                © 2016 Студия флоатинга и SPA «Флоат Студия».
+            </div>
+
+
     </div>
     <div class="block-2 blocks">
         <h4><a href="[[~7]]">О центре</a></h4>

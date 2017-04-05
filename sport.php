@@ -4,7 +4,7 @@
 
 <main  id="content">
 
-  <section class="photobox">
+  <div class="photobox">
 
       <img class="photobox__img" src="assets/newdis/img/recovery-sport.jpg">
       <div class="photobox__wrap">
@@ -21,10 +21,10 @@
           </div>
       </div>
 
-  </section>
+  </div>
 
 
-  <section class="contentbox">
+  <div class="contentbox">
 
       <h4 class="contentbox__head contentbox__limit-with mb">«Состояние спортсмена и танцора отражает их результат!»</h4>
       <div class="contentbox__promo">
@@ -35,10 +35,10 @@
           Наша студия медицинского велнеса предлагает уникальный комплексный подход к расслаблению и оздоровлению с помощью инновационной процедуры <span class="bold">флоатинг</span> в сочетании с массажными и медицинскими процедурами. Этот метод зарекомендовал себя как один из самых эффективных среди известных спортсменов и танцоров как в России, так и за рубежом.
       </div>
 
-  </section>
+  </div>
 
 
-  <section class="photobox waves">
+  <div class="photobox waves">
 
       <img class="photobox__img" src="assets/newdis/img/float-sport.jpg">
       <div class="photobox__wrap">
@@ -48,10 +48,10 @@
           </div>
       </div>
 
-  </section>
+  </div>
 
 
-  <section class="contentbox">
+  <div class="contentbox">
 
       <div class="contentbox__promo">
           Флоатинг благотворно влияет на организм в целом и имеет множество мощных эффектов.  В то время, как каждая мышца тела отдыхает, ваше давление и сердечный ритм приходят в норму, органы насыщаются кислородом, а состояние организма заметно улучшается.  Вместе с тем, это процедура, во время которой возвращаются эмоциональное равновесие и душевные силы.
@@ -86,10 +86,10 @@
           </div>
       </div>
 
-  </section>
+  </div>
 
 
-  <section class="contentbox contentbox-bg sport">
+  <div class="contentbox contentbox-bg sport">
   
       <div class="promo-grid promo-grid__compact">
           <div class="promo-grid__item promo-grid__item-background">
@@ -106,19 +106,19 @@
           </div>
       </div>
 
-  </section>
+  </div>
 
 
-  <section class="contentbox contentbox__bluewaves">
+  <div class="contentbox contentbox__bluewaves">
       <div class="contentbox__promo">1 час флоатинга дает больший успокаивающий и тонизирующий эффект, чем 6-8 часов полноценного сна.</div>
       <div class="contentbox__buttons">
           <a class="more" href="#">Записаться</a>
           <a class="more" href="#">Купить сертификат</a>
       </div>
-  </section>
+  </div>
 
 
-  <section class="contentbox">
+  <div class="contentbox">
       
       <h4 class="contentbox__head">Как это работает?</h4>
       <div class="contentbox__promo mb-50">
@@ -160,10 +160,10 @@
 
       <img src="assets/newdis/img/mugik-na-volnah.jpg" alt="" class="center topjump">
   
-  </section>
+  </div>
 
 
-  <section class="photobox">
+  <div class="photobox">
 
       <img class="photobox__img" src="assets/newdis/img/da-sport.jpg">
       <div class="photobox__wrap">
@@ -174,10 +174,10 @@
           </div>
       </div>
 
-  </section>
+  </div>
 
 
-  <section class="contentbox">
+  <div class="contentbox">
 
       <div class="contentbox__promo">
           «Флоат Студия» предлагает уникальные расслабляющие и лечебные виды массажа, использующие техники восточных оздоровительных систем в сочетании с классическими наработками медицинских массажей и современной телесно-ориентированной психотерапии. Правильно проделанный перед большой физической нагрузкой сеанс массажаспособен идеально подготовить тело, настроить его на достижение лучшего результата.
@@ -186,10 +186,10 @@
           После больших физических нагрузок поможет специальный сеанс массажа, направленный на расслабление и быстрое выведение вредных веществ из организма, путем прилива свежей обогащенной кислородом крови. Также массаж после интенсивных нагрузок способен ослабить болевые ощущения от травм или различных болезней, которые к сожалению преследуют и тех, кто ведет здоровый образ жизни. Массаж лечит тело и душу от травм, болезней и усталости.
       </div>
       
-  </section>
+  </div>
 
 
-  <section class="photobox photobox-half-margin">
+  <div class="photobox photobox-half-margin">
 
       <img class="photobox__img" src="assets/newdis/img/osteo-sport.jpg">
       <div class="photobox__wrap">
@@ -198,10 +198,10 @@
           </div>
       </div>
 
-  </section>
+  </div>
 
 
-  <section class="contentbox contentbox-not-margin ">
+  <div class="contentbox contentbox-not-margin ">
 
       <div class="contentbox__promo">
           Остеопатия - это совокупность лечебно-диагностических методик, используемых для установления причин и устранения выявленных нарушений путём мануального воздействия на анатомические структуры черепа, позвоночника, крестца, мышечно-связочный аппарат, внутренние органы в целях восстановления их подвижности и оптимального функционирования.
@@ -213,10 +213,10 @@
           <a class="more" href="#">Подробнее</a>
       </div>
 
-  </section>
+  </div>
 
 
-  <section class="photobox mb-80">
+  <div class="photobox mb-80">
 
       <img class="photobox__img" src="assets/newdis/img/aku-sport.jpg">
       <div class="photobox__wrap">
@@ -225,10 +225,10 @@
           </div>
       </div>
 
-  </section>
+  </div>
 
 
-  <section class="contentbox contentbox_big-margin">
+  <div class="contentbox contentbox_big-margin">
 
       <div class="contentbox__promo mb-50">
           Иглоукалывание - метод целостного оздоровления организма. Эффективность иглоукалывания проверена более чем 2000-летней историей китайской народной медицины. В наше время, иглоукалывание получило официальное признание как метод восстановительной медицины.
@@ -240,13 +240,13 @@
           <a class="more" href="#">Подробнее</a>
       </div>
 
-  </section>
+  </div>
 
 
   <?php include "call_me.php" ?>
 
 
-  <section class="photobox photobox-not-margin">
+  <div class="photobox photobox-not-margin">
 
       <img class="photobox__img" src="assets/newdis/img/kofe-sport.jpg">
       <div class="photobox__wrap">
@@ -256,10 +256,10 @@
           </div>
       </div>
 
-  </section>
+  </div>
 
 
- 	<div class="row">
+  <div class="row">
         <div class="col-xs-12 col-md-12 wide-card nobg wide-card__promo">
             <h4>Современное пространство целостного оздоровления в самом центре
                 Москвы</h4>

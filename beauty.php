@@ -3,7 +3,7 @@
 <main  id="content">
 
 
-    <section class="photobox">
+    <div class="photobox">
 
         <img class="photobox__img" src="assets/newdis/img/natural-beauty.jpg">
         <div class="photobox__wrap">
@@ -18,17 +18,17 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox">
+    <div class="contentbox">
 
         <div class="contentbox__promo">Между нервным напряжением и старением существует тесная связь: именно от чрезмерных переживаний у людей раньше времени появляются седые волосы и глубокие морщины. Три фазы – реакции, сопротивления и истощения – должны сменяться с определенной частотой, но из-за стрессов этот процесс ускоряется, а результатом становится преждевременное старение организма.</div>
 
-    </section>
+    </div>
 
 
-    <section class="photobox waves">
+    <div class="photobox waves">
 
         <img class="photobox__img" src="assets/newdis/img/proceduri-beauty.jpg">
         <div class="photobox__wrap">
@@ -38,10 +38,10 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox">
+    <div class="contentbox">
 
         <div class="contentbox__promo">Флоатинг активно используется не только в качестве релакс-процедуры, он благотворно влияет на весь организм целиком и имеет мощный косметологический эффект. В то время как каждая мышца тела отдыхает, ваше давление и сердечный ритм приходят в норму, органы насыщаются кислородом, а состояние кожи заметно улучшается.</div>
 
@@ -67,10 +67,10 @@
             <a class="more" href="#">Подробнее о флоатинге</a>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="photobox">
+    <div class="photobox">
 
         <img class="photobox__img" src="assets/newdis/img/facemassag-beauty.jpg">
         <div class="photobox__wrap">
@@ -80,10 +80,10 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox">
+    <div class="contentbox">
 
         <div class="contentbox__promo">Подтяжка лица с помощью иглоукалывания — одна из самых популярных процедур среди американских знаменитостей. По мнению «звезд», эта древняя восточная методика творит чудеса — освежает кожу, убирает морщины и делает лицо моложе по меньшей мере на 10 лет. Еженедельную процедуру «акупунктуры лица» проходят Мадонна, Гвинет Пелтроу и Шер.</div>
 
@@ -91,10 +91,10 @@
             <a class="more" href="#">Подробнее о методе и специалистах</a>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="photobox photobox-not-margin">
+    <div class="photobox photobox-not-margin">
 
         <img class="photobox__img" src="assets/newdis/img/facemassag2-beauty.jpg">
         <div class="photobox__wrap">
@@ -104,10 +104,10 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox contentbox-not-margin">
+    <div class="contentbox contentbox-not-margin">
         <div class="promo-grid-square">
             <div class="promo-grid-square__item">
                 <img src="assets/newdis/img/facemassag-1.jpg">
@@ -134,15 +134,15 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
 
-    <section class="banner banner-half-margin">
+    <div class="banner banner-half-margin">
         <img src="assets/newdis/img/banner1-beauty.jpg">
-    </section>
+    </div>
 
 
-    <section class="contentbox">
+    <div class="contentbox">
 
         <div class="contentbox__promo">Вернуть коже сияние, сделать ее упругой и бархатистой помогут индивидуально подобранные программы по уходу. Они основаны на комплексе процедур, направленных на решение конкретных проблем.  Представяем антиоксидантную программу ухода за лицом на натуральнок косметике PHYTOMER</div>
 
@@ -150,15 +150,15 @@
             <a class="more" href="#">Подробнее о методе и специалистах</a>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="banner banner-half-margin">
+    <div class="banner banner-half-margin">
         <img src="assets/newdis/img/banner2-beauty.jpg">
-    </section>
+    </div>
 
 
-    <section class="contentbox">
+    <div class="contentbox">
 
         <div class="contentbox__promo">Профессиональные программы ухода PHYTOMER - это не просто поддержание внешней красоты. Это работа на более глубоком уровне: расслабление, снятие стресса, насыщение жизненной энергией. Приятное тепло, морские брызги с ароматом лаванды, расслабляющий массаж и спокойная музыка, создают совершенную атмосферу.</div>
 
@@ -166,10 +166,10 @@
             <a class="more" href="#">Подробнее о ритуалах красоты PHYTOMER и стоимости</a>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="photobox photobox-half-margin">
+    <div class="photobox photobox-half-margin">
 
         <img class="photobox__img" src="assets/newdis/img/bodymassag-beauty.jpg">
         <div class="photobox__wrap">
@@ -179,10 +179,10 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox contentbox-not-margin">
+    <div class="contentbox contentbox-not-margin">
 
         <div class="contentbox__promo">В нашем арсенале поддержания красоты и молодости также имеются и восточные техники массажа (тибетский и индийский). Аюрведические процедуры: Абьянга и антицеллюлитный массаж Кижи со специальными маслами и травамии. Остеопатия или лечебный массаж, в сочетании с рефлексотерапией поможет вернуть вашей коже и мышцам необходимый тонус.</div>
         
@@ -210,10 +210,10 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="photobox">
+    <div class="photobox">
 
         <img class="photobox__img" src="assets/newdis/img/testdnk-beauty.jpg">
         <div class="photobox__wrap">
@@ -223,10 +223,10 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox">
+    <div class="contentbox">
 
         <div class="contentbox__promo">Врачи нашей Студии соберут анализ (это занимает всего 5 минут, по предварительной записи), после чего, в течение 2-3 недель, Вы получите профессионально оформленный глянцевый журнал (30-90 страниц) с подробным рассказом о Вас и Ваших генах. Результаты будут описаны подробным и доступным языком, с индивидуальными рекомендациями по улучшению качества вашей жизни. </div>
 
@@ -234,10 +234,10 @@
             <a class="more" href="#">Оставить заявку на тестированиеv</a>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox">
+    <div class="contentbox">
 
         <h4 class="contentbox__head">Комплексные программы для беременных</h4>
 
@@ -283,14 +283,14 @@
             <a class="more more-invert" href="#">Все услуги для беременных</a>
         </div>
 
-    </section>
+    </div>
 
 
-    <section class="contentbox">
+    <div class="contentbox">
 
         <?php include "call_me.php" ?>
 
-    </section>
+    </div>
 
     <?php include "phones.php" ?>
     

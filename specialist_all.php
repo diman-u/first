@@ -1,16 +1,16 @@
 <?php include "head.php" ?>
 <?php include "header.php" ?>
 
-    <section class="breadcrumbs" id="breadcrumbs">
+    <div class="breadcrumbs" id="breadcrumbs">
         <ul class="breadcrumbs__list">
             <li class="breadcrumbs_item"><a href="#">О центре</a></li>
             <li class="breadcrumbs_item"><a href="#">Специалисты</a></li>
         </ul>
-    </section>
+    </div>
     <main  id="content">
     
 
-        <section class="contentbox-doctors">
+        <div class="contentbox-doctors">
 
             <h1 class="contentbox-doctors__main-head">Специалисты</h1>
 
@@ -255,7 +255,7 @@
                     <div class="doctors-grid__status">Психолог</div>
                 </div>
 
-        </section>
+        </div>
 
         <?php include "phones.php" ?>
 
