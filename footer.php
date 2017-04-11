@@ -9,7 +9,7 @@
             <img src="assets/newdis/img/logo_footer.svg" />
         </a>
             <div class="disclaimer_text">
-                © 2016 Студия флоатинга и SPA «Флоат Студия».
+                © 2017 Студия флоатинга и SPA «Флоат Студия».
             </div>
 
 
@@ -43,8 +43,8 @@
 </footer>
 
 <div class="soc-bottom" id="sochide">
-    <a class="facebook" href="https://www.facebook.com/floatstudiomoscow?fref=ts"></a>
-    <a class="instagram" href="https://www.instagram.com/floatstudio_msk/"></a>
+    <a class="facebook" href="https://www.facebook.com/floatstudiomoscow?fref=ts" target="_blank"></a>
+    <a class="instagram" href="https://www.instagram.com/floatstudio_msk/" target="_blank"></a>
 </div>
 
 </div>

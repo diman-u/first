@@ -13,7 +13,10 @@ $(document).ready(function() {
         mapZoom = 17;
     }
 
-    ymaps.ready(init);
+    if(document.querySelector('#map'))
+        ymaps.ready(init);
+    else
+        return;
 
     function init(){    
 

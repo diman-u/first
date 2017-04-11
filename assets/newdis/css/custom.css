@@ -44,8 +44,19 @@ body {
     left: 50%;
     top: 75%;
     margin-left: -11.5px;
-    transition: none;
+    transition: 0.5s;
+    transition-delay: 0.5s;
 }
+.scroll.novisible {
+    transition-duration:: 0.5s;
+    transition-delay: 0s;
+}
+.scroll.scrolled{
+  opacity: 0;
+  transition-duration:: 0.3s;
+  transition-delay: 0s;
+}
+
 .cards-holder {
     column-count: 2;
     -moz-column-count: 2;
@@ -97,6 +108,10 @@ body {
     .recovery_text {
         order: 8;
     }
+}
+
+.ymaps-2-1-50-ground-pane canvas {
+  filter: grayscale(100%);
 }
 
 
@@ -340,7 +355,9 @@ body {
     width: 101%;
     max-width: none;
 }
-
+.wide-card.bg{
+    margin-bottom: 50px;
+}
 .wide-card.bg .imgheader:after {
     position: absolute;
     bottom: 0;
@@ -1392,7 +1409,7 @@ footer .block-1 {
     display: none;
     position: absolute;
     top: 25px;
-    left: 0;;
+    right: 0;
     width: 185px;
     background-color: #38b9e8;
     padding: 10px;
@@ -1458,6 +1475,7 @@ footer .block-1 {
     padding: 20px;
     text-align: center;
     z-index: inherit;
+
 }
 #loading {
     background: none repeat scroll 0 0 #fff;

@@ -185,7 +185,7 @@
     <div class="contentbox contentbox-not-margin">
 
         <div class="contentbox__promo">В нашем арсенале поддержания красоты и молодости также имеются и восточные техники массажа (тибетский и индийский). Аюрведические процедуры: Абьянга и антицеллюлитный массаж Кижи со специальными маслами и травамии. Остеопатия или лечебный массаж, в сочетании с рефлексотерапией поможет вернуть вашей коже и мышцам необходимый тонус.</div>
-        
+
         <div class="promo-grid-square">
             <div class="promo-grid-square__item">
                 <img src="assets/newdis/img/procedures-1.jpg">
@@ -231,7 +231,7 @@
         <div class="contentbox__promo">Врачи нашей Студии соберут анализ (это занимает всего 5 минут, по предварительной записи), после чего, в течение 2-3 недель, Вы получите профессионально оформленный глянцевый журнал (30-90 страниц) с подробным рассказом о Вас и Ваших генах. Результаты будут описаны подробным и доступным языком, с индивидуальными рекомендациями по улучшению качества вашей жизни. </div>
 
         <div class="contentbox__buttons">
-            <a class="more" href="#">Оставить заявку на тестированиеv</a>
+            <a class="more" href="#">Оставить заявку на тестирование</a>
         </div>
 
     </div>
@@ -239,12 +239,12 @@
 
     <div class="contentbox">
 
-        <h4 class="contentbox__head">Комплексные программы для беременных</h4>
+        <h4 class="contentbox__head">Комплексные программы Флоат Студии</h4>
 
         <div class="promo-grid">
             <div class="promo-grid__item">
                 <img src="assets/newdis/img/promo-10.png">
-                <p>Программы на посещение одной</p>
+                <p>Программы на посещение одного</p>
             </div>
         </div>
 
@@ -280,7 +280,7 @@
 
 
         <div class="contentbox__buttons">
-            <a class="more more-invert" href="#">Все услуги для беременных</a>
+            <a class="more more-invert" href="#">Все услуги и стоимость</a>
         </div>
 
     </div>
@@ -293,7 +293,7 @@
     </div>
 
     <?php include "phones.php" ?>
-    
+
 </main>
 
 <?php include "footer.php" ?>

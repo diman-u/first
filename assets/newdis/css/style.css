@@ -217,7 +217,7 @@ footer h4 {
 }
 
 .photobox .photobox__button a:hover {
-  background: none;
+      background-color: rgba(255, 255, 255, 0.2);
 }
 
 .photobox .photobox__button-check:after {
